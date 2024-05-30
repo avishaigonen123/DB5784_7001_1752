@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2821
+Password=2444
 Database=
 DateFormat=
 CommitCount=0
@@ -31,7 +31,7 @@ Data=Random(1, 400)
 Master=
 
 [Record]
-Name=SCHEDULEID
+Name=DRIVERID
 Type=NUMBER
 Size=
 Data=Random(1, 400)

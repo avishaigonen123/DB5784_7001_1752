@@ -64,11 +64,11 @@ CREATE TABLE Bus (
 CREATE TABLE BusRide (
     BusID INT NOT NULL, -- Foreign Key referencing Bus
     LineID INT NOT NULL, -- Foreign Key referencing Line
-    ScheduleID INT NOT NULL, -- Foreign Key referencing Schedule
-    PRIMARY KEY (BusID, LineID, ScheduleID),
+    DriverID INT NOT NULL, -- Foreign Key referencing Driver
+    PRIMARY KEY (BusID, LineID, DriverID),
     FOREIGN KEY (BusID) REFERENCES Bus(BusID),
     FOREIGN KEY (LineID) REFERENCES Line(LineID),
-    FOREIGN KEY (ScheduleID) REFERENCES Schedule(ScheduleID)
+    FOREIGN KEY (DriverID) REFERENCES Driver(DriverID)
 );
 
 -- Create DrivesInTaxi Table
