@@ -23,5 +23,5 @@ ORDER BY TotalSchedules DESC;
 SELECT br.BusID, br.LineID, d.FullName, d.HireDate
 FROM BusRide br
 JOIN Driver d ON br.DriverID = d.DriverID
-WHERE d.HireDate < '2020/01/01';
+WHERE d.HireDate < TO_DATE('2020-01-01', 'YYYY-MM-DD');
 

@@ -1,10 +1,8 @@
--- DELETE:
-
 -- Query 1: Delete all taxi records with a working zone 'Zone A' and start time before 6 AM
-DELETE FROM Taxi
-WHERE WorkingZone = 'Zone A' AND StartTime < '06:00:00';
+DELETE FROM DrivesInTaxi
+WHERE WorkingZone = 'Nahariya' AND TO_TIMESTAMP(StartTime, 'HH24:MI:SS') <= TO_TIMESTAMP('04:00:00', 'HH24:MI:SS');
 
--- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
+/*-- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
 DELETE FROM BusRide
 WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < '2015/01/01');
 
