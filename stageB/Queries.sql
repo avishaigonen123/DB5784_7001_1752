@@ -6,10 +6,11 @@ JOIN Taxi t ON dit.TaxiID = t.TaxiID
 ORDER BY d.FullName;
 
 -- Query 2: Select the average capacity of buses purchased in each year, grouped by year
-SELECT YEAR(b.PurchaseDate) AS PurchaseYear, AVG(b.Capacity) AS AverageCapacity
+SELECT EXTRACT(YEAR FROM b.PurchaseDate) AS PurchaseYear, AVG(b.Capacity) AS AverageCapacity
 FROM Bus b
-GROUP BY YEAR(b.PurchaseDate)
+GROUP BY EXTRACT(YEAR FROM b.PurchaseDate)
 ORDER BY PurchaseYear;
+
 
 -- Query 3: Select the total number of schedules and average frequency for each bus line, including line names
 SELECT l.LineName, COUNT(s.ScheduleID) AS TotalSchedules, AVG(s.Frequency) AS AverageFrequency
