@@ -19,12 +19,11 @@ JOIN Schedule s ON l.ScheduleID = s.ScheduleID
 GROUP BY l.LineName
 ORDER BY TotalSchedules DESC;
 
--- Query 4: Select all bus rides with schedules that start before 7 AM or end after 10 PM
-SELECT br.BusID, l.LineName, s.FirstDepartureTime, s.LastDepartureTime
+-- Query 4: Select all bus rides with drivers who have been hired before a certain date
+SELECT br.BusID, br.LineID, d.FullName, d.HireDate
 FROM BusRide br
-JOIN Line l ON br.LineID = l.LineID
-JOIN Schedule s ON br.ScheduleID = s.ScheduleID
-WHERE s.FirstDepartureTime < '07:00:00' OR s.LastDepartureTime > '22:00:00';
+JOIN Driver d ON br.DriverID = d.DriverID
+WHERE d.HireDate < '2020\01\01';
 
 -- DELETE:
 
@@ -34,7 +33,7 @@ WHERE WorkingZone = 'Zone A' AND StartTime < '06:00:00';
 
 -- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
 DELETE FROM BusRide
-WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < '2015-01-01');
+WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < '2015/01/01');
 
 -- UPDATE:
 
@@ -46,4 +45,5 @@ WHERE StartTime <= '08:00:00' AND FinishTime >= '16:00:00';
 -- Query 2: Update the capacity of buses purchased in the year 2020 to 60
 UPDATE Bus
 SET Capacity = 60
-WHERE YEAR(PurchaseDate) = 2020;
+WHERE EXTRACT(YEAR FROM PurchaseDate) = 2020;
+
