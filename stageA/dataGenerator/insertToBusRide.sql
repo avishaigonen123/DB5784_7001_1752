@@ -1,0 +1,1202 @@
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (322, 72, 295);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (30, 108, 392);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (167, 142, 189);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (399, 181, 360);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (199, 264, 331);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (292, 232, 266);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (108, 149, 241);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (126, 224, 346);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (101, 124, 97);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (315, 156, 190);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (349, 352, 122);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (14, 48, 13);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (358, 157, 149);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (286, 385, 235);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (268, 50, 57);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (334, 44, 238);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (66, 332, 19);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (36, 192, 293);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (294, 316, 168);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (9, 92, 49);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (183, 245, 283);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (283, 88, 372);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (206, 38, 116);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (345, 235, 114);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (11, 294, 34);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (139, 344, 316);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (146, 280, 330);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (301, 251, 324);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (121, 204, 350);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (159, 85, 390);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (7, 170, 54);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (256, 102, 165);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (34, 169, 28);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (356, 386, 318);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (192, 10, 346);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (119, 140, 286);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (303, 368, 381);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (286, 115, 388);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (18, 230, 259);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (163, 63, 176);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (308, 302, 358);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (2, 137, 22);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (152, 82, 132);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (207, 82, 150);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (26, 322, 193);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (392, 24, 34);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (355, 80, 30);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (130, 298, 356);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (70, 186, 239);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (302, 293, 156);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (310, 298, 251);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (358, 367, 400);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (59, 24, 188);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (349, 108, 271);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (239, 331, 152);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (282, 19, 108);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (236, 342, 351);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (241, 80, 325);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (55, 20, 1);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (270, 340, 17);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (166, 248, 374);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (90, 283, 353);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (359, 151, 303);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (224, 168, 314);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (46, 327, 79);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (345, 135, 205);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (255, 37, 330);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (131, 110, 223);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (264, 353, 12);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (241, 68, 197);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (253, 185, 78);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (187, 343, 347);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (128, 65, 169);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (372, 206, 64);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (258, 353, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (122, 87, 166);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (3, 181, 293);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (291, 209, 67);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (319, 209, 49);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (300, 340, 213);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (389, 104, 16);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (149, 84, 203);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (312, 295, 68);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (51, 337, 113);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 70, 30);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (275, 319, 383);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (54, 302, 39);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (378, 332, 211);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (333, 400, 370);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (312, 156, 129);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (213, 159, 238);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (310, 173, 179);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (98, 207, 384);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (392, 142, 50);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (108, 353, 229);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (247, 61, 123);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (203, 22, 277);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (191, 384, 248);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (176, 370, 118);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (159, 362, 179);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (167, 88, 211);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (137, 45, 116);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (176, 280, 286);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (188, 266, 326);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (143, 183, 236);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (4, 107, 82);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (337, 166, 342);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (127, 361, 201);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (234, 122, 36);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (172, 335, 354);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (302, 187, 115);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (304, 324, 34);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (196, 202, 381);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (188, 274, 221);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (71, 218, 22);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (152, 177, 309);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (362, 143, 247);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (107, 203, 372);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (16, 34, 242);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (14, 130, 254);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (314, 380, 99);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (245, 94, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (343, 367, 234);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (231, 52, 167);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (342, 59, 321);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (220, 285, 39);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (98, 41, 213);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (79, 189, 282);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (5, 210, 258);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (321, 117, 20);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (280, 82, 340);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (8, 373, 191);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (250, 221, 270);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (287, 57, 48);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (158, 215, 228);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (338, 341, 112);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (395, 310, 69);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (307, 138, 221);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 55, 326);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (74, 209, 226);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (224, 314, 316);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (355, 52, 194);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (48, 197, 389);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (384, 311, 375);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (321, 77, 175);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (62, 324, 174);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (265, 110, 371);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (208, 68, 142);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (268, 381, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (223, 98, 182);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (299, 242, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (354, 75, 202);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (49, 274, 354);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (366, 370, 126);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (77, 243, 37);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (125, 84, 366);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (81, 365, 232);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (58, 389, 161);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (378, 114, 392);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (251, 65, 214);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (212, 130, 262);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (195, 276, 78);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (198, 384, 283);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 28, 329);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (110, 181, 188);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (134, 172, 180);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (374, 320, 3);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (191, 386, 234);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (380, 178, 388);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (322, 355, 207);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (226, 87, 312);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (96, 341, 42);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (233, 307, 134);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (92, 65, 166);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (112, 52, 383);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (364, 269, 123);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (50, 9, 40);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (45, 54, 210);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (80, 143, 32);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (246, 196, 397);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (57, 104, 296);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (132, 400, 39);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (82, 270, 45);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (340, 137, 150);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (60, 157, 356);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (231, 18, 371);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (150, 117, 151);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 182, 195);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (52, 265, 270);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (126, 389, 337);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (203, 299, 257);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (78, 310, 71);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (36, 101, 339);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (301, 159, 360);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (69, 212, 292);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (399, 15, 293);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (299, 180, 269);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (252, 112, 177);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (7, 355, 70);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (279, 322, 151);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (251, 2, 317);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (322, 168, 149);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (109, 257, 332);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (204, 73, 82);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (77, 231, 196);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (364, 137, 133);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (252, 395, 170);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (49, 71, 97);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (324, 158, 29);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (241, 40, 256);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (5, 222, 176);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (375, 355, 290);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (260, 214, 138);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (74, 361, 50);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (350, 98, 359);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (298, 391, 323);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (331, 185, 133);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (229, 227, 119);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (4, 252, 338);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (3, 67, 101);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (149, 281, 296);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (369, 75, 169);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (35, 357, 259);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (56, 252, 337);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (348, 325, 342);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (160, 219, 185);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (135, 237, 165);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (158, 232, 214);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (325, 10, 326);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (348, 57, 387);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (46, 314, 41);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (120, 177, 257);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (18, 80, 187);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (211, 347, 135);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (109, 93, 77);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (294, 129, 212);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (329, 1, 114);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (286, 286, 38);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (232, 303, 376);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (25, 298, 247);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (143, 165, 398);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (188, 14, 22);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (238, 381, 231);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (385, 343, 268);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (364, 394, 375);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (220, 87, 204);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (295, 332, 17);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (334, 219, 279);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (298, 194, 117);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (379, 344, 348);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (189, 42, 14);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (376, 63, 366);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (225, 315, 274);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (68, 294, 141);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (344, 78, 203);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (259, 322, 227);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (74, 84, 331);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (324, 66, 253);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (349, 60, 360);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (173, 182, 256);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (254, 244, 74);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (58, 243, 239);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (84, 20, 285);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (210, 87, 274);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (346, 388, 335);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (322, 215, 235);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (229, 255, 90);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (142, 237, 127);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (317, 109, 8);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (302, 388, 305);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (224, 81, 184);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (59, 235, 52);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (160, 353, 12);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (53, 63, 199);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (283, 389, 281);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (146, 368, 10);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (10, 309, 178);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (274, 143, 370);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (114, 211, 66);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (335, 308, 108);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (55, 102, 351);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (331, 271, 20);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (358, 10, 252);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (300, 304, 301);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (84, 53, 278);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (233, 149, 17);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (2, 86, 49);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (348, 62, 89);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (198, 140, 174);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (377, 67, 244);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 214, 388);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (256, 172, 213);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (305, 237, 338);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (152, 162, 243);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (323, 329, 329);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (28, 291, 56);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (156, 184, 303);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (222, 53, 102);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (376, 132, 174);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (204, 333, 154);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (127, 31, 103);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (189, 173, 240);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (7, 68, 135);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (299, 275, 126);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (287, 126, 340);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (235, 233, 58);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (149, 143, 267);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (11, 240, 26);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (198, 2, 224);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (270, 349, 299);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (213, 8, 312);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (371, 252, 28);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (351, 309, 79);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (166, 66, 78);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (74, 214, 183);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (73, 328, 247);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (291, 160, 85);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (6, 199, 44);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (292, 232, 316);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (360, 115, 199);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (157, 338, 343);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (132, 143, 22);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (347, 163, 18);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (300, 119, 310);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (57, 125, 248);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (128, 162, 392);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (371, 326, 53);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (32, 337, 390);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (228, 9, 42);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (309, 296, 168);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (365, 246, 186);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (20, 158, 52);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (199, 222, 330);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (253, 29, 29);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (163, 233, 125);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (75, 317, 212);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (90, 369, 257);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (163, 124, 253);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (351, 72, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (15, 179, 56);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (84, 302, 295);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (172, 182, 22);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (1, 224, 112);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (291, 151, 392);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (193, 95, 154);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (399, 343, 243);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (4, 240, 192);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (274, 280, 380);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (165, 283, 379);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (260, 59, 149);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (99, 3, 79);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (316, 234, 366);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (247, 5, 317);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (36, 174, 30);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (163, 301, 76);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (279, 342, 4);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (42, 26, 40);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (218, 247, 157);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (41, 131, 97);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (64, 279, 192);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (394, 84, 306);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (211, 339, 48);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (316, 250, 40);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (208, 62, 209);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (131, 121, 328);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (135, 199, 340);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (83, 176, 205);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (299, 165, 384);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (393, 248, 47);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (300, 92, 18);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (313, 338, 289);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (270, 7, 274);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (178, 15, 81);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (277, 374, 254);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (294, 392, 385);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (127, 212, 81);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (43, 22, 236);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (373, 275, 223);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (320, 6, 321);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (162, 110, 304);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (182, 250, 353);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (399, 2, 341);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (318, 114, 166);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (217, 77, 332);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (20, 346, 182);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (366, 395, 94);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (189, 354, 41);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (248, 371, 383);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (150, 37, 257);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (183, 80, 92);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (152, 91, 254);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (145, 275, 109);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (345, 311, 259);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (388, 129, 136);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (256, 128, 106);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (69, 196, 46);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (277, 146, 239);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (4, 384, 323);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (362, 329, 184);
+
+insert into SYS.BUSRIDE (BUSID, LINEID, SCHEDULEID)
+values (262, 331, 248);
+
+commit;
+

@@ -1,0 +1,1202 @@
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (60, 264);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (344, 341);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (366, 307);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (354, 386);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (68, 23);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (59, 46);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (340, 271);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (211, 46);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (314, 196);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (230, 266);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (43, 8);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (382, 32);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (16, 131);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (203, 394);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (219, 90);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (2, 209);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (237, 200);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (383, 357);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (395, 32);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (51, 95);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (21, 118);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (211, 83);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (238, 272);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (43, 290);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (364, 384);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (163, 301);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (333, 71);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (335, 43);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (6, 40);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (172, 258);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (392, 140);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (64, 127);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (249, 368);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (83, 370);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (81, 396);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (310, 251);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (2, 99);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (121, 187);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (80, 34);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (82, 195);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (245, 157);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (192, 93);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (157, 333);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (328, 267);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (326, 321);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (11, 329);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (280, 185);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (375, 287);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (76, 218);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (44, 134);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (343, 340);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (389, 294);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (154, 233);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (90, 219);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (123, 393);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (261, 182);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (214, 355);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (274, 163);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (262, 77);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (121, 259);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (98, 135);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (75, 334);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (269, 100);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (72, 326);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (53, 182);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (174, 334);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (354, 87);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (352, 93);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (378, 374);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (327, 373);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (281, 67);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (323, 104);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (85, 1);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (67, 360);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (50, 267);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (283, 4);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (200, 224);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (226, 330);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (1, 45);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (98, 115);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (74, 73);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (85, 186);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (346, 342);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (268, 350);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (330, 355);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (147, 372);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (124, 56);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (214, 46);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (30, 297);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (138, 266);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (380, 346);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (186, 319);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (68, 112);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (232, 308);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (374, 61);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (4, 151);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (387, 284);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (297, 238);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (6, 290);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (215, 197);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (223, 388);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (370, 271);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (78, 40);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (86, 322);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (175, 229);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (360, 395);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (368, 241);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (10, 52);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (92, 103);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (168, 188);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (342, 67);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (345, 366);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (397, 191);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (236, 367);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (77, 396);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (276, 399);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (27, 271);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (125, 58);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (225, 382);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (300, 279);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (203, 162);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (312, 190);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (185, 358);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (342, 83);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (19, 84);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (12, 223);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (115, 267);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (285, 122);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (265, 149);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (233, 185);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (359, 9);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (138, 150);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (267, 180);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (44, 49);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (303, 124);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (221, 295);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (154, 243);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (78, 28);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (258, 387);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (172, 123);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (154, 322);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (53, 195);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (360, 344);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (391, 213);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (110, 298);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (328, 231);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (107, 159);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (298, 276);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (23, 272);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (268, 94);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (109, 190);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (220, 180);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (23, 1);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (249, 14);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (72, 97);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (100, 313);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (155, 265);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (84, 220);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (201, 264);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (240, 64);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (4, 154);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (264, 380);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (34, 354);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (58, 36);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (135, 286);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (42, 373);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (292, 187);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (75, 373);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (162, 345);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (325, 388);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (166, 139);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (330, 26);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (238, 144);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (202, 344);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (17, 272);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (11, 130);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (378, 220);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (292, 233);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (307, 188);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (324, 317);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (396, 345);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (119, 197);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (361, 1);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (172, 347);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (80, 365);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (308, 318);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (138, 45);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (273, 268);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (377, 169);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (14, 142);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (242, 97);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (93, 300);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (18, 376);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (370, 327);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (153, 132);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (11, 41);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (357, 148);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (357, 9);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (279, 200);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (300, 204);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (40, 134);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (308, 304);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (239, 228);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (146, 74);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (299, 133);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (232, 324);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (169, 146);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (279, 290);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (66, 284);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (160, 127);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (250, 341);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (39, 158);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (124, 179);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (121, 184);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (65, 34);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (57, 278);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (264, 305);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (143, 179);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (179, 384);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (173, 110);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (289, 210);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (273, 330);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (346, 310);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (170, 52);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (22, 189);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (232, 30);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (336, 250);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (134, 50);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (359, 102);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (282, 226);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (196, 234);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (45, 335);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (128, 113);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (133, 306);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (323, 288);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (183, 275);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (387, 154);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (262, 330);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (177, 360);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (370, 165);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (141, 116);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (61, 166);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (6, 175);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (30, 333);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (283, 363);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (18, 371);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (4, 210);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (273, 371);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (166, 173);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (310, 379);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (92, 197);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (12, 99);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (392, 101);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (228, 26);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (322, 349);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (94, 243);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (233, 271);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (30, 395);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (307, 115);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (265, 50);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (70, 188);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (12, 388);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (78, 57);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (159, 214);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (67, 82);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (6, 223);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (365, 49);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (302, 341);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (257, 169);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (109, 251);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (299, 210);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (359, 129);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (66, 241);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (227, 307);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (146, 148);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (185, 278);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (53, 386);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (53, 376);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (263, 148);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (122, 324);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (276, 19);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (265, 196);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (274, 266);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (102, 195);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (91, 56);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (148, 171);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (80, 158);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (390, 298);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (164, 197);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (47, 24);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (286, 35);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (341, 125);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (318, 145);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (239, 364);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (60, 340);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (391, 190);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (396, 343);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (233, 384);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (11, 146);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (66, 82);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (161, 242);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (93, 81);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (94, 289);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (19, 255);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (208, 87);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (189, 201);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (144, 17);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (91, 330);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (310, 236);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (170, 315);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (226, 369);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (202, 335);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (384, 395);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (364, 209);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (21, 273);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (56, 59);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (88, 388);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (400, 208);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (27, 182);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (83, 138);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (232, 44);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (262, 23);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (194, 18);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (399, 62);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (29, 210);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (156, 121);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (375, 252);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (193, 311);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (156, 97);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (19, 19);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (207, 110);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (337, 209);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (51, 137);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (231, 310);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (22, 95);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (26, 315);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (231, 379);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (377, 5);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (369, 40);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (235, 123);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (32, 1);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (12, 5);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (176, 291);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (12, 302);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (381, 352);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (263, 298);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (329, 2);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (385, 251);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (385, 312);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (254, 78);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (274, 167);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (297, 186);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (152, 387);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (356, 395);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (54, 170);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (176, 145);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (232, 323);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (258, 124);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (156, 265);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (313, 324);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (87, 244);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (270, 57);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (1, 374);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (77, 333);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (380, 117);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (243, 332);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (240, 20);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (354, 183);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (300, 343);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (123, 372);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (93, 174);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (5, 193);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (298, 272);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (122, 163);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (98, 235);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (354, 223);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (256, 241);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (118, 41);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (295, 134);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (101, 233);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (285, 340);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (278, 223);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (230, 356);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (258, 167);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (138, 304);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (111, 46);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (386, 299);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (309, 361);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (54, 123);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (337, 140);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (239, 146);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (400, 78);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (229, 187);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (392, 327);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (138, 270);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (348, 163);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (102, 147);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (346, 36);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (209, 160);
+
+insert into SYS.DRIVESINTAXI (DRIVERID, TAXIID)
+values (278, 232);
+
+commit;
+

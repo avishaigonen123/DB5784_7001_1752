@@ -10,7 +10,7 @@ CREATE TABLE Station (
 CREATE TABLE Driver (
     DriverID INT NOT NULL,
     FullName VARCHAR(100) NOT NULL, -- Name of the driver
-    LicenseNumber INT NOT NULL, -- License number of the driver
+    LicenseNumber VARCHAR(14) NOT NULL, -- License number of the driver
     HireDate DATE NOT NULL, -- Hire date of the driver
     PRIMARY KEY (DriverID)
 );
@@ -21,8 +21,8 @@ CREATE TABLE Schedule (
     FirstDepartureTime VARCHAR2(8) NOT NULL, -- First departure time in HH24:MI:SS format
     LastDepartureTime VARCHAR2(8) NOT NULL, -- Last departure time in HH24:MI:SS format
     PRIMARY KEY (ScheduleID),
-    CONSTRAINT chk_FirstDepartureTime CHECK (REGEXP_LIKE(FirstDepartureTime, '^\d{2}:\d{2}:\d{2}$')),
-    CONSTRAINT chk_LastDepartureTime CHECK (REGEXP_LIKE(LastDepartureTime, '^\d{2}:\d{2}:\d{2}$'))
+    CONSTRAINT chk_FirstDepartureTime CHECK (REGEXP_LIKE(FirstDepartureTime, '^\d{1,2}:\d{1,2}:\d{1,2}$')),
+    CONSTRAINT chk_LastDepartureTime CHECK (REGEXP_LIKE(LastDepartureTime, '^\d{1,2}:\d{1,2}:\d{1,2}$'))
 );
 
 -- Create Taxi Table
@@ -32,8 +32,8 @@ CREATE TABLE Taxi (
     StartTime VARCHAR2(8) NOT NULL, -- Start time of the taxi shift in HH24:MI:SS format
     FinishTime VARCHAR2(8) NOT NULL, -- Finish time of the taxi shift in HH24:MI:SS format
     PRIMARY KEY (TaxiID),
-    CONSTRAINT chk_StartTime CHECK (REGEXP_LIKE(StartTime, '^\d{2}:\d{2}:\d{2}$')),
-    CONSTRAINT chk_FinishTime CHECK (REGEXP_LIKE(FinishTime, '^\d{2}:\d{2}:\d{2}$'))
+    CONSTRAINT chk_StartTime CHECK (REGEXP_LIKE(StartTime, '^\d{1,2}:\d{1,2}:\d{1,2}$')),
+    CONSTRAINT chk_FinishTime CHECK (REGEXP_LIKE(FinishTime, '^\d{1,2}:\d{1,2}:\d{1,2}$'))
 
 );
 
