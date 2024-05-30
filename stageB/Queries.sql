@@ -11,7 +11,6 @@ FROM Bus b
 GROUP BY EXTRACT(YEAR FROM b.PurchaseDate)
 ORDER BY PurchaseYear;
 
-
 -- Query 3: Select the total number of schedules and average frequency for each bus line, including line names
 SELECT l.LineName, COUNT(s.ScheduleID) AS TotalSchedules, AVG(s.Frequency) AS AverageFrequency
 FROM Line l
@@ -24,4 +23,7 @@ SELECT br.BusID, br.LineID, d.FullName, d.HireDate
 FROM BusRide br
 JOIN Driver d ON br.DriverID = d.DriverID
 WHERE d.HireDate < TO_DATE('2020-01-01', 'YYYY-MM-DD');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 08408e011d031508b7b68fc9801b482b6033f940

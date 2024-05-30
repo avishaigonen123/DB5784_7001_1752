@@ -4,7 +4,8 @@ WHERE WorkingZone = 'Nahariya' AND TO_TIMESTAMP(StartTime, 'HH24:MI:SS') <= TO_T
 
 /*-- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
 DELETE FROM BusRide
-WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < '2015/01/01');
+WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < TO_DATE('2015-01-01', 'YYYY-MM-DD'));
+
 
 -- UPDATE:
 

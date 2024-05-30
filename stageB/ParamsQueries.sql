@@ -1,7 +1,7 @@
 -- Query 1: Select the names of drivers hired after a specified date
 SELECT d.FullName, d.HireDate
 FROM Driver d
-WHERE d.HireDate > :hire_date
+WHERE d.HireDate > TO_DATE(:hire_date, 'YYYY-MM-DD')
 ORDER BY d.HireDate;
 
 -- Query 2: Select all taxis working in a specified zone with start time within a range
@@ -14,7 +14,7 @@ SELECT br.BusID, br.LineID, d.FullName, d.HireDate
 FROM BusRide br
 JOIN Driver d ON br.DriverID = d.DriverID
 WHERE br.BusID = :bus_id AND br.LineID = :line_id
-AND d.HireDate BETWEEN :date_start AND :date_end;
+AND d.HireDate BETWEEN TO_DATE(:date_start, 'YYYY-MM-DD') AND TO_DATE(:date_end, 'YYYY-MM-DD');
 
 -- Query 4: Select bus lines operating in a specified station and with frequency less than specified value
 SELECT l.LineName, l.LineID, s.Frequency
