@@ -1,3 +1,12 @@
+-- DELETE:
+Update Taxi
+set WorkingZone = 'Nahariya'
+Where TO_TIMESTAMP(StartTime, 'HH24:MI:SS') <= TO_TIMESTAMP('03:00:00', 'HH24:MI:SS');
+
+Select t.taxiid
+From Taxi t
+Where t.WorkingZone = 'Nahariya';
+
 -- Query 1: Delete all taxi records with a working zone 'Zone A' and start time before 6 AM
 -- Step 1: Delete related records in DrivesInTaxi
 DELETE FROM DrivesInTaxi
