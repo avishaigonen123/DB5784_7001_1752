@@ -10,11 +10,11 @@ FROM Taxi t
 WHERE t.WorkingZone = :working_zone AND t.StartTime BETWEEN :start_time_min AND :start_time_max;
 
 -- Query 3: Select bus rides for specified bus and line within a date range
-SELECT br.BusID, br.LineID, br.ScheduleID, s.FirstDepartureTime, s.LastDepartureTime
+SELECT br.BusID, br.LineID, d.FullName, d.HireDate
 FROM BusRide br
-JOIN Schedule s ON br.ScheduleID = s.ScheduleID
+JOIN Driver d ON br.DriverID = d.DriverID
 WHERE br.BusID = :bus_id AND br.LineID = :line_id
-AND s.FirstDepartureTime BETWEEN :date_start AND :date_end;
+AND d.HireDate BETWEEN :date_start AND :date_end;
 
 -- Query 4: Select bus lines operating in a specified station and with frequency less than specified value
 SELECT l.LineName, l.LineID, s.Frequency
