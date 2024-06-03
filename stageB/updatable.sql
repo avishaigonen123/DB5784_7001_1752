@@ -13,21 +13,23 @@ DELETE FROM DrivesInTaxi
 WHERE TaxiID IN (
     SELECT TaxiID
     FROM Taxi
-    WHERE WorkingZone = TO_TIMESTAMP(StartTime, 'HH24:MI:SS') < TO_TIMESTAMP('06:00:00', 'HH24:MI:SS')
+    WHERE TO_TIMESTAMP(StartTime, 'HH24:MI:SS') < TO_TIMESTAMP('06:00:00', 'HH24:MI:SS')
 );
 
 -- Step 2: Delete the taxi records
 DELETE FROM Taxi
 WHERE WorkingZone = 'Nahariya' AND TO_TIMESTAMP(StartTime, 'HH24:MI:SS') < TO_TIMESTAMP('06:00:00', 'HH24:MI:SS');
 
-/*-- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
+
+
+-- Query 2: Delete all bus rides for a specific bus that has a purchase date before 2015
 DELETE FROM BusRide
 WHERE BusID IN (SELECT BusID FROM Bus WHERE PurchaseDate < TO_DATE('2015-01-01', 'YYYY-MM-DD'));
 
 
 
 -- UPDATE:
-
+/*
 -- Query 1: Update the working zone of all taxis operating between 8 AM and 4 PM to 'Zone B'
 UPDATE Taxi
 SET WorkingZone = 'Zone B'
