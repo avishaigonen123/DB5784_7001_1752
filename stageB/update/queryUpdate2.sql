@@ -7,7 +7,7 @@ WHERE b.Capacity = 60;
 
 UPDATE Bus
 SET Capacity = 60
-WHERE EXTRACT(YEAR FROM PurchaseDate) = 2024;
+WHERE (Model = "Tracer" or Model = "Camaro" or Model = "RAV4")
 
 SELECT *
 FROM Bus b
