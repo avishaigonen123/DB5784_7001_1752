@@ -1,22 +1,27 @@
 -- Query 1: get the drivers names that drive in a Taxi and there Taxi licenses plate and there working zone and order by the name
-SELECT Driver.FullName, t.TaxiID, t.WorkingZone
+SELECT Driver.FullName, Taxi.LicensePlate, DrivesInTaxi.WorkingZone
 FROM Driver
-JOIN DrivesInTaxi dit ON Driver.DriverID = DrivesInTaxi.DriverID
+JOIN DrivesInTaxi ON Driver.DriverID = DrivesInTaxi.DriverID
 JOIN Taxi ON DrivesInTaxi.TaxiID = Taxi.TaxiID
 ORDER BY Driver.FullName;
 
--- Query 2: Select the average capacity of buses purchased in each year, grouped by year
-SELECT EXTRACT(YEAR FROM b.PurchaseDate) AS PurchaseYear, AVG(b.Capacity) AS AverageCapacity
+-- Query 2: Select the bus model that has the highest number of associated rides in the BusRide table
+SELECT b.Model, COUNT(*) AS TotalRides
 FROM Bus b
-GROUP BY EXTRACT(YEAR FROM b.PurchaseDate)
-ORDER BY PurchaseYear;
+JOIN BusRide br ON b.BusID = br.BusID
+GROUP BY b.Model
+ORDER BY TotalRides DESC
+FETCH FIRST 1 ROWS ONLY;
 
 -- Query 3: Select the total number of schedules and average frequency for each bus line, including line names
-SELECT l.LineName, COUNT(s.ScheduleID) AS TotalSchedules, AVG(s.Frequency) AS AverageFrequency
-FROM Line l
-JOIN Schedule s ON l.ScheduleID = s.ScheduleID
-GROUP BY l.LineName
-ORDER BY TotalSchedules DESC;
+SELECT lne.LineName
+FROM Line lne
+JOIN Schedule schd ON lne.ScheduleID = schd.ScheduleID
+JOIN Station start_station ON lne.StartOfStationID = start_station.StationID
+JOIN Station end_station ON lne.EndOfStationID = end_station.StationID
+WHERE start_station.StationName = 'Elon Morre'
+  AND end_station.StationName = 'Malha Mall'
+  AND schd.FirstDepartureTime >= TO_TIMESTAMP('17:00:00', 'HH24:MI:SS');
 
 -- Query 4: Select all bus rides with drivers who have been hired before a certain date
 SELECT br.BusID, br.LineID, d.FullName, d.HireDate
