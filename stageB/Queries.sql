@@ -1,9 +1,9 @@
--- Query 1: Select the names of drivers and the taxis they drive, including the time range of their shifts
-SELECT d.FullName, t.TaxiID, t.WorkingZone, t.StartTime, t.FinishTime
-FROM Driver d
-JOIN DrivesInTaxi dit ON d.DriverID = dit.DriverID
-JOIN Taxi t ON dit.TaxiID = t.TaxiID
-ORDER BY d.FullName;
+-- Query 1: get the drivers names that drive in a Taxi and there Taxi licenses plate and there working zone and order by the name
+SELECT Driver.FullName, t.TaxiID, t.WorkingZone
+FROM Driver
+JOIN DrivesInTaxi dit ON Driver.DriverID = DrivesInTaxi.DriverID
+JOIN Taxi ON DrivesInTaxi.TaxiID = Taxi.TaxiID
+ORDER BY Driver.FullName;
 
 -- Query 2: Select the average capacity of buses purchased in each year, grouped by year
 SELECT EXTRACT(YEAR FROM b.PurchaseDate) AS PurchaseYear, AVG(b.Capacity) AS AverageCapacity

@@ -28,13 +28,11 @@ CREATE TABLE Schedule (
 -- Create Taxi Table
 CREATE TABLE Taxi (
     TaxiID INT NOT NULL,
-    WorkingZone VARCHAR(100) NOT NULL, -- Working zone of the taxi
-    StartTime VARCHAR2(8) NOT NULL, -- Start time of the taxi shift in HH24:MI:SS format
-    FinishTime VARCHAR2(8) NOT NULL, -- Finish time of the taxi shift in HH24:MI:SS format
-    PRIMARY KEY (TaxiID),
-    CONSTRAINT chk_StartTime CHECK (REGEXP_LIKE(StartTime, '^\d{1,2}:\d{1,2}:\d{1,2}$')),
-    CONSTRAINT chk_FinishTime CHECK (REGEXP_LIKE(FinishTime, '^\d{1,2}:\d{1,2}:\d{1,2}$'))
-
+    LicensePlate VARCHAR(100) NOT NULL, -- License plate
+    Model VARCHAR(100) NOT NULL, -- Model of the bus
+    Capacity INT NOT NULL, -- Capacity of the bus
+    PurchaseDate DATE NOT NULL, -- Purchase date of the bus
+    PRIMARY KEY (TaxiID)
 );
 
 -- Create Line Table
@@ -54,6 +52,7 @@ CREATE TABLE Line (
 -- Create Bus Table
 CREATE TABLE Bus (
     BusID INT NOT NULL,
+    LicensePlate VARCHAR(100) NOT NULL, -- License plate
     Model VARCHAR(100) NOT NULL, -- Model of the bus
     Capacity INT NOT NULL, -- Capacity of the bus
     PurchaseDate DATE NOT NULL, -- Purchase date of the bus
@@ -65,18 +64,29 @@ CREATE TABLE BusRide (
     BusID INT NOT NULL, -- Foreign Key referencing Bus
     LineID INT NOT NULL, -- Foreign Key referencing Line
     DriverID INT NOT NULL, -- Foreign Key referencing Driver
+    StartTime VARCHAR2(8) NOT NULL, -- Start time of the taxi shift in HH24:MI:SS format
+    FinishTime VARCHAR2(8) NOT NULL, -- Finish time of the taxi shift in HH24:MI:SS format
+    
     PRIMARY KEY (BusID, LineID, DriverID),
     FOREIGN KEY (BusID) REFERENCES Bus(BusID),
     FOREIGN KEY (LineID) REFERENCES Line(LineID),
-    FOREIGN KEY (DriverID) REFERENCES Driver(DriverID)
+    FOREIGN KEY (DriverID) REFERENCES Driver(DriverID),
+    CONSTRAINT chk_StartTime1 CHECK (REGEXP_LIKE(StartTime, '^\d{1,2}:\d{1,2}:\d{1,2}$')),
+    CONSTRAINT chk_FinishTime1 CHECK (REGEXP_LIKE(FinishTime, '^\d{1,2}:\d{1,2}:\d{1,2}$'))
 );
 
 -- Create DrivesInTaxi Table
 CREATE TABLE DrivesInTaxi (
     DriverID INT NOT NULL, -- Foreign Key referencing Driver
     TaxiID INT NOT NULL, -- Foreign Key referencing Taxi
+    StartTime VARCHAR2(8) NOT NULL, -- Start time of the DriveInTaxi shift in HH24:MI:SS format
+    FinishTime VARCHAR2(8) NOT NULL, -- Finish time of the DriveInTaxi shift in HH24:MI:SS format
+    WorkingZone VARCHAR(100) NOT NULL, -- Working zone of the DriveInTaxi
+
     PRIMARY KEY (DriverID, TaxiID),
     FOREIGN KEY (DriverID) REFERENCES Driver(DriverID),
-    FOREIGN KEY (TaxiID) REFERENCES Taxi(TaxiID)
+    FOREIGN KEY (TaxiID) REFERENCES Taxi(TaxiID),
+    CONSTRAINT chk_StartTime2 CHECK (REGEXP_LIKE(StartTime, '^\d{1,2}:\d{1,2}:\d{1,2}$')),
+    CONSTRAINT chk_FinishTime2 CHECK (REGEXP_LIKE(FinishTime, '^\d{1,2}:\d{1,2}:\d{1,2}$'))
 );
 
