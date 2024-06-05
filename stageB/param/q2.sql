@@ -3,4 +3,4 @@ SELECT t.TaxiID, t.WorkingZone, t.StartTime, t.FinishTime
 FROM Taxi t
 WHERE t.WorkingZone = &<name="wz" list="SELECT tx.WorkingZone from Taxi tx">;
   --AND TO_TIMESTAMP(t.StartTime, 'HH24:MI:SS') BETWEEN TO_TIMESTAMP('&start_time_min', 'HH24:MI:SS') 
-  --AND TO_TIMESTAMP('&start_time_max', 'HH24:MI:SS');
+  --AND TO_TIMESTAMP('&start_time_max',ï¿½'HH24:MI:SS');
