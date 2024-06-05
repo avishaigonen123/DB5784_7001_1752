@@ -6,25 +6,25 @@ JOIN Taxi ON DrivesInTaxi.TaxiID = Taxi.TaxiID
 ORDER BY Driver.FullName;
 
 -- Query 2: Select the bus model that has the highest number of associated rides in the BusRide table
-SELECT b.Model, COUNT(*) AS TotalRides
-FROM Bus b
-JOIN BusRide br ON b.BusID = br.BusID
-GROUP BY b.Model
+SELECT bus.Model, COUNT(*) AS TotalRides
+FROM Bus bus
+JOIN BusRide busride ON bus.BusID = busride.BusID
+GROUP BY bus.Model
 ORDER BY TotalRides DESC
 FETCH FIRST 1 ROWS ONLY;
 
 -- Query 3: Select the total number of schedules and average frequency for each bus line, including line names
-SELECT lne.LineName
+SELECT lne.LineName, schedule.FirstDepartureTime
 FROM Line lne
-JOIN Schedule schd ON lne.ScheduleID = schd.ScheduleID
+JOIN Schedule schedule ON lne.ScheduleID = schedule.ScheduleID
 JOIN Station start_station ON lne.StartOfStationID = start_station.StationID
 JOIN Station end_station ON lne.EndOfStationID = end_station.StationID
 WHERE start_station.StationName = 'Elon Morre'
   AND end_station.StationName = 'Malha Mall'
-  AND schd.FirstDepartureTime >= TO_TIMESTAMP('17:00:00', 'HH24:MI:SS');
+  AND TO_TIMESTAMP(schedule.FirstDepartureTime, 'HH24:MI:SS') >= TO_TIMESTAMP('17:00:00', 'HH24:MI:SS');
 
 -- Query 4: Select all bus rides with drivers who have been hired before a certain date
-SELECT br.BusID, br.LineID, d.FullName, d.HireDate
-FROM BusRide br
-JOIN Driver d ON br.DriverID = d.DriverID
-WHERE d.HireDate < TO_DATE('2020-01-01', 'YYYY-MM-DD');
+SELECT driver.FullName, driver.HireDate
+FROM BusRide busride
+JOIN Driver driver ON busride.DriverID = driver.DriverID
+WHERE MONTHS_BETWEEN(SYSDATE, driver.HireDate) / 12 >= 2;

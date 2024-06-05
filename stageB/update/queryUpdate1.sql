@@ -1,14 +1,37 @@
 -- UPDATE:
 
--- Query 1: Update the working zone of all taxis operating between 7 AM and 8 AM to 'Nahariya'
+-- Select all records from Line where EndOfStationID matches the StationID of 'Elon Morre'
+SELECT lne.LineName, station.StationName AS endStation, station.StationAddress  AS endStationAddress
+FROM Line lne
+JOIN Station station ON station.StationID = lne.EndOfStationID
+WHERE lne.EndOfStationID = (
+    SELECT station.StationID
+    FROM Station station
+    WHERE station.StationName = 'Hawarra'
+    FETCH FIRST 1 ROWS ONLY
+);
 
-SELECT *
-FROM Taxi;
+UPDATE Line
+SET EndOfStationID = (
+    SELECT station.StationID
+    FROM Station station
+    WHERE station.StationName = 'Elon Morre'
+    FETCH FIRST 1 ROWS ONLY
+)
+WHERE EndOfStationID = (
+    SELECT station.StationID
+    FROM Station station
+    WHERE station.StationName = 'Hawarra'
+    FETCH FIRST 1 ROWS ONLY
+);
 
-UPDATE Taxi
-SET WorkingZone = 'Nahariya'
-WHERE TO_TIMESTAMP(StartTime, 'HH24:MI:SS') >= TO_TIMESTAMP('07:00:00', 'HH24:MI:SS')
-  AND TO_TIMESTAMP(FinishTime, 'HH24:MI:SS') <= TO_TIMESTAMP('08:00:00', 'HH24:MI:SS');
+SELECT lne.LineName, station.StationName AS endStation, station.StationAddress  AS endStationAddress
+FROM Line lne
+JOIN Station station ON station.StationID = lne.EndOfStationID
+WHERE lne.EndOfStationID = (
+    SELECT station.StationID
+    FROM Station station
+    WHERE station.StationName = 'Elon Morre'
+    FETCH FIRST 1 ROWS ONLY
+);
 
-SELECT *
-FROM Taxi;
