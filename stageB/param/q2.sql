@@ -1,6 +1,7 @@
--- Query 2: Select all taxis working in a specified zone with start time within a range
-SELECT t.TaxiID, t.WorkingZone, t.StartTime, t.FinishTime
-FROM Taxi t
-WHERE t.WorkingZone = &<name="wz" list="SELECT tx.WorkingZone from Taxi tx">;
-  --AND TO_TIMESTAMP(t.StartTime, 'HH24:MI:SS') BETWEEN TO_TIMESTAMP('&start_time_min', 'HH24:MI:SS') 
-  --AND TO_TIMESTAMP('&start_time_max',�'HH24:MI:SS');
+-- Query 2: List drivers with the most bus rides in a specific period.
+SELECT driver.DriverID, driver.FullName, COUNT(busride.BusID) AS NumberOfRides
+FROM Driver driver
+JOIN BusRide busride ON driver.DriverID = busride.DriverID
+WHERE TO_TIMESTAMP(busride.StartTime, 'HH24:MI:SS') BETWEEN TO_TIMESTAMP('&StartPeriod', 'HH24:MI:SS') AND TO_TIMESTAMP('&EndPeriod', 'HH24:MI:SS')
+GROUP BY driver.DriverID, driver.FullName
+ORDER BY NumberOfRides DESC;

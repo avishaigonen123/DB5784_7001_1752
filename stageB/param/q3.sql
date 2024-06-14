@@ -1,6 +1,14 @@
--- Query 3: Select bus rides for specified bus and line within a date range
-SELECT br.BusID, br.LineID, d.FullName, d.HireDate
-FROM BusRide br
-JOIN Driver d ON br.DriverID = d.DriverID
-WHERE br.BusID = :bus_id AND br.LineID = &line_id
-AND d.HireDate BETWEEN TO_DATE(&date_start, 'YYYY-MM-DD') AND TO_DATE(&date_end, 'YYYY-MM-DD');
+-- Query 3: Retrieve the driver who works the most hours in a specific working zone.
+SELECT 
+    driverinstaxi.DriverID, 
+    driver.FullName,
+    SUM(
+        (EXTRACT(HOUR FROM (TO_TIMESTAMP(driverinstaxi.FinishTime, 'HH24:MI:SS') - TO_TIMESTAMP(driverinstaxi.StartTime, 'HH24:MI:SS'))) * 60 
+        + EXTRACT(MINUTE FROM (TO_TIMESTAMP(driverinstaxi.FinishTime, 'HH24:MI:SS') - TO_TIMESTAMP(driverinstaxi.StartTime, 'HH24:MI:SS')))) / 60
+    ) AS TotalHours
+FROM DrivesInTaxi driverinstaxi
+JOIN Driver driver ON driverinstaxi.DriverID = driver.DriverID
+WHERE driverinstaxi.WorkingZone = '&WorkingZone'
+GROUP BY driverinstaxi.DriverID, driver.FullName
+ORDER BY TotalHours DESC
+FETCH FIRST 1 ROWS ONLY;
