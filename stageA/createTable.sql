@@ -9,7 +9,7 @@ CREATE TABLE Station (
 -- Create Driver Table
 CREATE TABLE Driver (
     DriverID INT NOT NULL,
-    FullName VARCHAR(100) NOT NULL, -- Name of the driver
+    FullName VARCHAR(100), -- Name of the driver
     LicenseNumber VARCHAR(14) NOT NULL, -- License number of the driver
     HireDate DATE NOT NULL, -- Hire date of the driver
     PRIMARY KEY (DriverID)
@@ -29,9 +29,9 @@ CREATE TABLE Schedule (
 CREATE TABLE Taxi (
     TaxiID INT NOT NULL,
     LicensePlate VARCHAR(100) NOT NULL, -- License plate
-    Model VARCHAR(100) NOT NULL, -- Model of the bus
-    Capacity INT NOT NULL, -- Capacity of the bus
-    PurchaseDate DATE NOT NULL, -- Purchase date of the bus
+    Model VARCHAR(100) NOT NULL, -- Model of the taxi
+    Capacity INT NOT NULL, -- Capacity of the taxi
+    PurchaseDate DATE NOT NULL, -- Purchase date of the taxi
     PRIMARY KEY (TaxiID)
 );
 

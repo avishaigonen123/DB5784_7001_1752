@@ -1,5 +1,5 @@
 ﻿prompt PL/SQL Developer Export Tables for user C##AVISHAI@XE
-prompt Created by avish on Tuesday, June 4, 2024
+prompt Created by avish on Sunday, June 16, 2024
 set feedback off
 set define off
 
@@ -20,7 +20,7 @@ prompt Creating DRIVER...
 create table DRIVER
 (
   driverid      INTEGER not null,
-  fullname      VARCHAR2(100) not null,
+  fullname      VARCHAR2(100) default 'Dekel Vaknin' not null,
   licensenumber VARCHAR2(14) not null,
   hiredate      DATE not null
 )
@@ -1778,7 +1778,11 @@ values (399, 'Asher Assante', '0934-7100-6853', to_date('23-08-2020', 'dd-mm-yyy
 insert into DRIVER (driverid, fullname, licensenumber, hiredate)
 values (400, 'Deloris Skentelbury', '4327-2118-3975', to_date('29-03-2022', 'dd-mm-yyyy'));
 commit;
-prompt 400 records loaded
+prompt 400 records committed...
+insert into DRIVER (driverid, fullname, licensenumber, hiredate)
+values (450, 'Dekel Vaknin', '39-102-39', to_date('19-07-2020', 'dd-mm-yyyy'));
+commit;
+prompt 401 records loaded
 prompt Loading SCHEDULE...
 insert into SCHEDULE (scheduleid, frequency, firstdeparturetime, lastdeparturetime)
 values (1, 367, '11:18:47', '0:03:28');
@@ -2766,7 +2770,7 @@ values (87, 'Station Idol', '462 Harnes Road');
 insert into STATION (stationid, stationname, stationaddress)
 values (88, 'Station Hall', '1000 Berkeley Blvd');
 insert into STATION (stationid, stationname, stationaddress)
-values (89, 'Station Rockwell', '175 Neuchâtel Street');
+values (89, 'Station Rockwell', '175 NeuchÃ¢tel Street');
 insert into STATION (stationid, stationname, stationaddress)
 values (90, 'Station Love', '46 Nagasaki Drive');
 insert into STATION (stationid, stationname, stationaddress)
@@ -2916,7 +2920,7 @@ values (161, 'Station Berkoff', '47 Gladys Road');
 insert into STATION (stationid, stationname, stationaddress)
 values (162, 'Station Ward', '79 Evett');
 insert into STATION (stationid, stationname, stationaddress)
-values (163, 'Station Stiers', '62 Neuchâtel Road');
+values (163, 'Station Stiers', '62 NeuchÃ¢tel Road');
 insert into STATION (stationid, stationname, stationaddress)
 values (164, 'Station Hughes', '23 Isaac Drive');
 insert into STATION (stationid, stationname, stationaddress)
@@ -3112,7 +3116,7 @@ values (258, 'Station Reynolds', '53 Curtis Drive');
 insert into STATION (stationid, stationname, stationaddress)
 values (259, 'Station Roy Parnell', '31 Garland Drive');
 insert into STATION (stationid, stationname, stationaddress)
-values (260, 'Station Calle', '76 København Street');
+values (260, 'Station Calle', '76 KÃ¸benhavn Street');
 insert into STATION (stationid, stationname, stationaddress)
 values (261, 'Station McCracken', '181 Kravitz Blvd');
 insert into STATION (stationid, stationname, stationaddress)
@@ -7044,11 +7048,11 @@ values (314, 390, '15:47:00', '14:06:23', 'Si Wilai');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (374, 364, '5:02:56', '8:07:21', 'Biting');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (100, 110, '15:51:51', '14:42:33', 'Wyszogród');
+values (100, 110, '15:51:51', '14:42:33', 'WyszogrÃ³d');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (243, 295, '6:44:49', '17:07:51', 'San Martín');
+values (243, 295, '6:44:49', '17:07:51', 'San MartÃ­n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (26, 289, '13:34:19', '7:25:19', 'Ponta Porã');
+values (26, 289, '13:34:19', '7:25:19', 'Ponta PorÃ£');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (150, 259, '11:45:31', '8:13:38', 'Diofior');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7056,15 +7060,15 @@ values (217, 272, '0:11:46', '22:39:03', 'Yejia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (326, 196, '10:41:07', '18:16:10', 'Balut');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (93, 32, '0:54:37', '23:40:57', 'Panórama');
+values (93, 32, '0:54:37', '23:40:57', 'PanÃ³rama');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (78, 86, '12:33:17', '17:45:10', 'Ḩadīdah');
+values (78, 86, '12:33:17', '17:45:10', 'á¸¨adÄ«dah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (253, 103, '7:29:07', '7:48:56', 'Kroonstad');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (13, 186, '21:28:37', '10:22:51', 'Karangasem');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (312, 374, '2:28:37', '20:26:43', 'Matão');
+values (312, 374, '2:28:37', '20:26:43', 'MatÃ£o');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (400, 359, '17:32:45', '9:35:19', 'Socos');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7110,15 +7114,15 @@ values (370, 27, '6:37:11', '11:51:52', 'Deba Habe');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (326, 38, '12:17:30', '11:49:15', 'Uppsala');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (165, 130, '10:36:15', '23:00:02', 'Köping');
+values (165, 130, '10:36:15', '23:00:02', 'KÃ¶ping');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (393, 287, '17:38:45', '9:23:35', 'Arapuey');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (315, 216, '9:28:50', '0:08:23', 'Arrap’i');
+values (315, 216, '9:28:50', '0:08:23', 'Arrapâ€™i');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (169, 180, '4:12:24', '6:58:49', 'Portland');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (5, 252, '17:52:07', '14:54:04', 'Sol’tsy');
+values (5, 252, '17:52:07', '14:54:04', 'Solâ€™tsy');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (240, 121, '16:10:40', '23:08:40', 'Pinamalayan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7200,7 +7204,7 @@ values (200, 350, '12:26:33', '5:34:59', 'Padova');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (238, 107, '21:35:25', '21:47:51', 'Nong Saeng');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (256, 259, '4:48:13', '19:36:24', 'Al Madīd');
+values (256, 259, '4:48:13', '19:36:24', 'Al MadÄ«d');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (84, 165, '10:03:22', '12:20:25', 'Yuyang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7210,11 +7214,11 @@ values (33, 365, '12:35:31', '2:57:59', 'Quebo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (255, 290, '7:58:19', '12:05:15', 'Washington');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (90, 235, '9:37:27', '6:17:14', 'Timrå');
+values (90, 235, '9:37:27', '6:17:14', 'TimrÃ¥');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (51, 193, '18:40:12', '9:54:25', 'Tuba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (337, 7, '23:01:04', '5:30:37', 'Ébolowa');
+values (337, 7, '23:01:04', '5:30:37', 'Ã‰bolowa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (63, 98, '11:51:36', '14:07:52', 'Puncakwangi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7246,15 +7250,15 @@ values (157, 306, '4:17:03', '20:39:55', 'Zhugentan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (173, 306, '5:24:56', '19:54:46', 'Wangjiachang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (105, 180, '1:19:10', '23:42:38', 'Shōbu');
+values (105, 180, '1:19:10', '23:42:38', 'ShÅbu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (396, 184, '1:23:49', '13:00:41', 'Heshi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (72, 42, '18:53:52', '4:04:39', 'Effium');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (179, 75, '1:39:12', '12:12:02', 'San Andrés');
+values (179, 75, '1:39:12', '12:12:02', 'San AndrÃ©s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (346, 258, '22:36:46', '7:13:34', 'Korisós');
+values (346, 258, '22:36:46', '7:13:34', 'KorisÃ³s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (329, 175, '20:16:54', '17:10:24', 'Palca');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7270,11 +7274,11 @@ values (259, 356, '3:07:00', '14:04:26', 'Luksuhin');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (217, 188, '17:43:58', '23:51:20', 'Carlos Casares');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (96, 81, '13:32:14', '10:35:14', 'Butiá');
+values (96, 81, '13:32:14', '10:35:14', 'ButiÃ¡');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (2, 350, '2:29:09', '23:53:44', 'Água de Pau');
+values (2, 350, '2:29:09', '23:53:44', 'Ãgua de Pau');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (382, 55, '21:04:06', '22:23:09', 'Berlín');
+values (382, 55, '21:04:06', '22:23:09', 'BerlÃ­n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (268, 321, '15:17:48', '22:39:53', 'Orivesi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7298,21 +7302,21 @@ values (249, 98, '2:57:34', '3:17:04', 'Changtu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (224, 83, '12:11:35', '3:36:36', 'Nkhotakota');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (355, 270, '6:14:09', '2:07:28', 'Conceição da Barra');
+values (355, 270, '6:14:09', '2:07:28', 'ConceiÃ§Ã£o da Barra');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (323, 368, '12:52:32', '10:48:03', 'Turku');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (127, 224, '18:33:49', '23:27:30', 'Cizhu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (248, 122, '17:43:26', '15:37:41', 'Łąck');
+values (248, 122, '17:43:26', '15:37:41', 'ÅÄ…ck');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (80, 53, '19:11:44', '12:16:08', 'Zākhū');
+values (80, 53, '19:11:44', '12:16:08', 'ZÄkhÅ«');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (90, 198, '4:15:51', '11:46:57', 'Ban Tak');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (370, 18, '12:26:50', '1:45:32', 'Sheksna');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (84, 326, '19:45:00', '7:12:13', 'Ādam');
+values (84, 326, '19:45:00', '7:12:13', 'Ä€dam');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (89, 43, '10:19:53', '18:54:31', 'Altamira');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7324,7 +7328,7 @@ values (175, 66, '2:51:03', '5:21:43', 'Votkinsk');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (289, 358, '7:20:34', '8:02:49', 'Cruzeiro');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (21, 90, '3:17:06', '4:36:31', 'Mönhbulag');
+values (21, 90, '3:17:06', '4:36:31', 'MÃ¶nhbulag');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (10, 342, '4:57:36', '17:30:58', 'Valle de La Pascua');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7340,13 +7344,13 @@ values (75, 341, '12:17:28', '3:47:06', 'Changning');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (150, 185, '5:42:45', '7:17:23', 'Xiaopu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (349, 353, '1:07:22', '15:14:53', 'Atães');
+values (349, 353, '1:07:22', '15:14:53', 'AtÃ£es');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (27, 295, '12:53:10', '15:03:38', 'Pitkyaranta');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (219, 176, '20:32:41', '17:34:54', 'Quatro Barras');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (185, 308, '9:57:55', '3:28:45', 'Río Segundo');
+values (185, 308, '9:57:55', '3:28:45', 'RÃ­o Segundo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (9, 62, '9:24:32', '13:17:54', 'Komi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7370,7 +7374,7 @@ values (316, 173, '18:27:57', '22:25:29', 'Wangying');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (255, 76, '9:28:31', '0:31:25', 'Tongqian');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (382, 323, '7:37:25', '21:06:09', 'Biryulëvo Zapadnoye');
+values (382, 323, '7:37:25', '21:06:09', 'BiryulÃ«vo Zapadnoye');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (26, 400, '5:11:43', '1:28:59', 'Bolboc');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7378,11 +7382,11 @@ values (347, 283, '14:13:19', '5:26:27', 'Mohammedia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (248, 220, '15:07:24', '18:58:55', 'Hepang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (94, 131, '11:39:38', '11:02:22', 'Spárti');
+values (94, 131, '11:39:38', '11:02:22', 'SpÃ¡rti');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (16, 222, '9:34:12', '23:25:03', 'Douala');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (369, 163, '8:27:23', '2:13:38', 'Pinar del Río');
+values (369, 163, '8:27:23', '2:13:38', 'Pinar del RÃ­o');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (74, 369, '22:53:43', '2:05:38', 'Hidalgo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7390,7 +7394,7 @@ values (397, 119, '5:26:02', '6:05:06', 'Indralayang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (331, 58, '2:12:33', '10:52:35', 'Callao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (246, 44, '2:27:01', '15:26:21', '‘Izbat al Burj');
+values (246, 44, '2:27:01', '15:26:21', 'â€˜Izbat al Burj');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (391, 375, '6:44:41', '0:05:12', 'Bakovci');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7398,9 +7402,9 @@ values (309, 45, '18:34:34', '20:36:22', 'Ipoh');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (281, 287, '4:00:44', '2:33:34', 'Dedza');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (301, 114, '11:05:48', '17:33:00', 'K’anak’erravan');
+values (301, 114, '11:05:48', '17:33:00', 'Kâ€™anakâ€™erravan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (243, 292, '0:19:08', '0:03:47', 'Bukowina Tatrzańska');
+values (243, 292, '0:19:08', '0:03:47', 'Bukowina TatrzaÅ„ska');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (388, 374, '22:16:12', '7:44:12', 'Wellington');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7412,15 +7416,15 @@ values (107, 128, '8:33:52', '6:24:38', 'Des Moines');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (216, 157, '22:40:27', '0:21:18', 'Bello');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (336, 187, '11:48:15', '0:50:52', 'Guantánamo');
+values (336, 187, '11:48:15', '0:50:52', 'GuantÃ¡namo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (324, 263, '7:26:12', '12:10:48', 'Chunhu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (300, 19, '14:02:38', '0:22:01', 'Jiakexi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (242, 304, '18:38:12', '14:22:57', 'Tõrva');
+values (242, 304, '18:38:12', '14:22:57', 'TÃµrva');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (111, 272, '14:13:05', '4:21:17', 'Ḩalḩūl');
+values (111, 272, '14:13:05', '4:21:17', 'á¸¨alá¸©Å«l');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (384, 354, '13:08:58', '3:26:16', 'Mariatana');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7428,11 +7432,11 @@ values (227, 86, '22:03:09', '6:36:36', 'Sim');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (395, 191, '12:28:00', '4:14:40', 'Grand Bank');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (327, 177, '6:38:16', '6:59:10', 'Muzayri‘');
+values (327, 177, '6:38:16', '6:59:10', 'Muzayriâ€˜');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (291, 320, '17:40:56', '19:06:51', 'Kajuru');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (68, 20, '2:39:31', '20:39:52', 'Colonia Mauricio José Troche');
+values (68, 20, '2:39:31', '20:39:52', 'Colonia Mauricio JosÃ© Troche');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (148, 58, '22:05:20', '16:51:28', 'Jingyang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7444,7 +7448,7 @@ prompt 200 records committed...
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (354, 270, '14:46:39', '10:29:46', 'Wufeng');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (126, 88, '5:32:51', '17:05:12', 'Komsomol’skiy');
+values (126, 88, '5:32:51', '17:05:12', 'Komsomolâ€™skiy');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (147, 304, '3:52:03', '11:16:39', 'Terara');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7454,9 +7458,9 @@ values (284, 116, '15:36:32', '17:23:47', 'Costa Nova do Prado');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (243, 14, '7:44:55', '10:11:33', 'Roberval');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (61, 231, '10:17:41', '23:17:01', 'Labé');
+values (61, 231, '10:17:41', '23:17:01', 'LabÃ©');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (375, 89, '16:11:53', '19:10:56', 'Vänersborg');
+values (375, 89, '16:11:53', '19:10:56', 'VÃ¤nersborg');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (367, 400, '23:12:18', '7:27:18', 'Hatton');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7472,7 +7476,7 @@ values (166, 182, '2:24:55', '17:54:51', 'Jintao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (108, 315, '6:00:02', '17:14:21', 'Baunu-Timbangan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (350, 226, '2:09:18', '16:13:38', 'Chervonopartyzans’k');
+values (350, 226, '2:09:18', '16:13:38', 'Chervonopartyzansâ€™k');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (66, 330, '20:08:16', '6:56:00', 'Obiliq');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7480,9 +7484,9 @@ values (324, 169, '6:20:06', '21:19:50', 'Cuauhtemoc');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (116, 135, '19:51:05', '13:54:03', 'Dongshe');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (378, 296, '6:50:16', '6:22:17', 'Morón');
+values (378, 296, '6:50:16', '6:22:17', 'MorÃ³n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (49, 53, '13:21:07', '17:58:43', 'Nossa Senhora da Glória');
+values (49, 53, '13:21:07', '17:58:43', 'Nossa Senhora da GlÃ³ria');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (326, 104, '19:33:27', '20:21:02', 'Rabat');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7516,7 +7520,7 @@ values (52, 4, '6:45:00', '16:04:09', 'Tongyuanpu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (322, 208, '0:05:51', '20:46:09', 'Konde');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (208, 112, '20:49:02', '14:46:18', 'Sincé');
+values (208, 112, '20:49:02', '14:46:18', 'SincÃ©');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (277, 229, '21:22:51', '16:45:20', 'Chanuman');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7530,7 +7534,7 @@ values (178, 95, '1:59:55', '7:36:55', 'Mondlo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (173, 244, '1:01:47', '2:01:55', 'Danjiangkou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (110, 1, '16:52:37', '2:19:29', 'Spuž');
+values (110, 1, '16:52:37', '2:19:29', 'SpuÅ¾');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (199, 135, '10:20:20', '1:05:21', 'Burgas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7542,7 +7546,7 @@ values (186, 343, '15:38:20', '6:12:49', 'Valongo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (57, 246, '22:08:40', '14:03:20', 'Kushikino');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (84, 212, '16:00:03', '14:04:23', 'Santa Bárbara');
+values (84, 212, '16:00:03', '14:04:23', 'Santa BÃ¡rbara');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (55, 286, '5:22:41', '5:19:22', 'Tomohon');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7552,7 +7556,7 @@ values (207, 2, '1:01:00', '16:58:04', 'Pitangueiras');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (135, 216, '16:45:15', '13:10:54', 'Gualaceo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (334, 130, '7:10:00', '20:17:02', 'Krzeczów');
+values (334, 130, '7:10:00', '20:17:02', 'KrzeczÃ³w');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (372, 305, '2:45:13', '5:52:05', 'Sedati');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7570,9 +7574,9 @@ values (280, 389, '22:40:04', '2:27:38', 'Qiaotou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (290, 394, '2:42:59', '3:57:16', 'Patalan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (103, 34, '4:18:16', '7:02:27', 'Caçapava');
+values (103, 34, '4:18:16', '7:02:27', 'CaÃ§apava');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (82, 5, '4:07:09', '21:07:19', 'Thành Phố Hạ Long');
+values (82, 5, '4:07:09', '21:07:19', 'ThÃ nh Phá»‘ Háº¡ Long');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (342, 394, '9:39:24', '0:23:08', 'Hongshan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7616,13 +7620,13 @@ values (107, 275, '5:54:40', '17:20:10', 'Chadong');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (168, 135, '12:20:55', '15:11:06', 'Saint-Pierre-des-Corps');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (161, 226, '1:38:25', '17:53:47', 'Vällingby');
+values (161, 226, '1:38:25', '17:53:47', 'VÃ¤llingby');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (341, 69, '1:44:16', '23:49:23', 'Leixlip');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (180, 155, '7:46:28', '12:50:23', 'Ximei');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (174, 182, '4:39:53', '23:21:27', 'Bisée');
+values (174, 182, '4:39:53', '23:21:27', 'BisÃ©e');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (170, 32, '1:33:30', '7:00:55', 'Khelyulya');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7664,13 +7668,13 @@ values (250, 63, '12:18:10', '16:13:53', 'Alfenas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (79, 243, '12:42:47', '11:07:25', 'Klimovsk');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (136, 46, '18:32:10', '4:59:54', 'Pābna');
+values (136, 46, '18:32:10', '4:59:54', 'PÄbna');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (120, 315, '16:23:06', '17:49:22', 'Duzhenwan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (239, 177, '11:48:14', '15:04:27', 'Loyola');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (133, 212, '15:13:24', '16:27:31', 'Bollnäs');
+values (133, 212, '15:13:24', '16:27:31', 'BollnÃ¤s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (332, 320, '21:28:51', '4:37:46', 'Qijiang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7700,7 +7704,7 @@ values (329, 90, '2:13:50', '6:42:05', 'Laurel');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (337, 359, '10:29:20', '6:39:34', 'Mossendjo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (55, 311, '10:43:32', '2:33:16', 'Timashëvsk');
+values (55, 311, '10:43:32', '2:33:16', 'TimashÃ«vsk');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (82, 62, '4:30:00', '16:35:53', 'San Luis');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7722,9 +7726,9 @@ values (137, 233, '19:20:24', '12:17:29', 'Alexandria');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (258, 199, '2:11:39', '0:39:46', 'Shalakusha');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (113, 56, '18:05:53', '1:36:35', 'Ni’ao');
+values (113, 56, '18:05:53', '1:36:35', 'Niâ€™ao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (162, 86, '3:26:27', '10:38:56', 'Pyrgetós');
+values (162, 86, '3:26:27', '10:38:56', 'PyrgetÃ³s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (355, 348, '8:16:29', '7:52:47', 'Brongkah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7754,15 +7758,15 @@ values (99, 70, '20:53:12', '3:43:30', 'Shixian');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (122, 65, '6:27:58', '13:56:54', 'Remedios');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (365, 142, '18:44:52', '21:46:09', 'At Taḩālif');
+values (365, 142, '18:44:52', '21:46:09', 'At Taá¸©Älif');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (253, 41, '12:01:28', '6:59:42', 'Mata de São João');
+values (253, 41, '12:01:28', '6:59:42', 'Mata de SÃ£o JoÃ£o');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (251, 82, '23:47:45', '5:35:13', 'Porto Martins');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (39, 141, '11:52:39', '11:37:16', 'Krasnystaw');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (60, 162, '7:48:02', '15:16:10', 'Deskáti');
+values (60, 162, '7:48:02', '15:16:10', 'DeskÃ¡ti');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (285, 300, '19:51:36', '21:48:38', 'Maindang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7806,7 +7810,7 @@ values (379, 195, '2:00:05', '2:37:53', 'Yaohua');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (5, 373, '17:14:54', '1:25:06', 'Marquard');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (280, 225, '17:14:05', '14:27:03', 'Sangar Sarāy');
+values (280, 225, '17:14:05', '14:27:03', 'Sangar SarÄy');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (30, 88, '19:22:33', '17:57:41', 'Marapat');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7820,7 +7824,7 @@ values (294, 182, '21:36:26', '7:20:21', 'Xiling');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (344, 333, '17:56:20', '18:24:50', 'Oslo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (112, 38, '12:19:26', '4:10:14', 'Västerås');
+values (112, 38, '12:19:26', '4:10:14', 'VÃ¤sterÃ¥s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (198, 49, '22:10:43', '6:13:20', 'Kota Kinabalu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7830,9 +7834,9 @@ values (174, 209, '1:28:15', '18:37:41', 'Motala');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (119, 304, '9:04:05', '6:14:06', 'Szolnok');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (372, 59, '20:54:56', '22:14:58', 'São Bento');
+values (372, 59, '20:54:56', '22:14:58', 'SÃ£o Bento');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (379, 249, '3:34:37', '10:03:56', 'San Bartolomé Milpas Altas');
+values (379, 249, '3:34:37', '10:03:56', 'San BartolomÃ© Milpas Altas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (400, 380, '0:06:19', '11:30:04', 'Puerto Cabezas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7840,7 +7844,7 @@ values (267, 192, '10:42:24', '10:27:21', 'Yanhu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (270, 3, '16:09:20', '20:45:53', 'Adjumani');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (135, 159, '20:36:29', '14:00:37', 'San Antonio Suchitepéquez');
+values (135, 159, '20:36:29', '14:00:37', 'San Antonio SuchitepÃ©quez');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (113, 93, '15:09:37', '0:58:36', 'Lijiaxiang');
 commit;
@@ -7878,7 +7882,7 @@ values (133, 266, '19:11:25', '11:07:29', 'Xiaojing');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (231, 234, '3:42:18', '11:14:37', 'Zebrzydowice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (231, 81, '1:41:22', '10:17:53', 'Ya’ngan');
+values (231, 81, '1:41:22', '10:17:53', 'Yaâ€™ngan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (169, 3, '3:54:56', '0:32:48', 'Ciakar');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7906,7 +7910,7 @@ values (101, 258, '4:53:07', '5:30:44', 'Seupakat');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (237, 20, '13:32:25', '4:14:29', 'Pringu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (67, 67, '15:40:46', '8:06:04', 'Barra do Piraí');
+values (67, 67, '15:40:46', '8:06:04', 'Barra do PiraÃ­');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (229, 68, '18:50:34', '11:20:19', 'Xirikxiy');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7914,7 +7918,7 @@ values (107, 347, '9:39:18', '15:29:14', 'Mintang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (197, 396, '6:28:43', '0:31:49', 'Pingtang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (239, 259, '18:59:31', '12:38:52', 'Itaberaí');
+values (239, 259, '18:59:31', '12:38:52', 'ItaberaÃ­');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (251, 46, '15:24:33', '14:49:14', 'Balkh');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7940,7 +7944,7 @@ values (297, 328, '1:54:44', '15:11:03', 'Stupsk');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (306, 374, '0:15:55', '18:51:03', 'Biyan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (212, 372, '20:18:04', '1:35:56', 'Strzelce Krajeńskie');
+values (212, 372, '20:18:04', '1:35:56', 'Strzelce KrajeÅ„skie');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (242, 74, '4:36:34', '17:45:22', 'Vyksa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7948,17 +7952,17 @@ values (380, 349, '20:17:12', '1:05:47', 'Santa Teresita');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (19, 367, '6:06:39', '23:23:22', 'Kawage');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (145, 129, '22:41:41', '17:46:00', 'Al Mukallā');
+values (145, 129, '22:41:41', '17:46:00', 'Al MukallÄ');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (363, 74, '21:10:59', '7:03:15', 'Várzea');
+values (363, 74, '21:10:59', '7:03:15', 'VÃ¡rzea');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (291, 48, '7:28:32', '4:30:36', 'Kuala Lumpur');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (332, 125, '3:38:54', '20:08:52', 'Sūrak');
+values (332, 125, '3:38:54', '20:08:52', 'SÅ«rak');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (79, 48, '9:00:20', '11:37:54', 'Mtinko');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (31, 298, '19:19:55', '0:34:32', 'Sol’tsy');
+values (31, 298, '19:19:55', '0:34:32', 'Solâ€™tsy');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (251, 277, '23:00:28', '16:24:20', 'Limoeiro de Anadia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -7998,7 +8002,7 @@ values (159, 365, '17:23:33', '12:43:42', 'Montinho');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (313, 86, '11:59:02', '13:10:37', 'Kansas City');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (231, 132, '3:29:46', '14:40:36', 'Caparrapí');
+values (231, 132, '3:29:46', '14:40:36', 'CaparrapÃ­');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (57, 293, '1:16:31', '9:33:55', 'Tabou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8024,9 +8028,9 @@ values (156, 60, '9:05:06', '20:59:45', 'Kagadi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (329, 53, '18:58:24', '4:25:08', 'Dongping');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (200, 300, '19:04:16', '7:43:17', 'Mazańcowice');
+values (200, 300, '19:04:16', '7:43:17', 'MazaÅ„cowice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (48, 49, '0:02:53', '12:57:48', 'Baturité');
+values (48, 49, '0:02:53', '12:57:48', 'BaturitÃ©');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (241, 241, '1:58:07', '4:28:07', 'Zaolin');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8040,11 +8044,11 @@ values (250, 232, '2:49:52', '19:10:09', 'Zhoutie');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (232, 354, '22:26:30', '17:56:30', 'Liushutun');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (279, 316, '16:16:33', '14:16:26', 'Laško');
+values (279, 316, '16:16:33', '14:16:26', 'LaÅ¡ko');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (361, 121, '6:36:57', '7:48:11', 'Tiehe');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (312, 261, '19:56:55', '22:10:41', 'Tobatí');
+values (312, 261, '19:56:55', '22:10:41', 'TobatÃ­');
 commit;
 prompt 500 records committed...
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8066,11 +8070,11 @@ values (328, 325, '10:16:58', '0:04:03', 'Komyshany');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (262, 117, '21:19:31', '6:57:26', 'Salaspils');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (130, 84, '6:44:04', '2:58:52', 'Gardēz');
+values (130, 84, '6:44:04', '2:58:52', 'GardÄ“z');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (360, 208, '3:49:34', '14:59:48', 'Orahovica');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (382, 276, '16:52:32', '6:12:27', 'Córdoba');
+values (382, 276, '16:52:32', '6:12:27', 'CÃ³rdoba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (377, 352, '13:35:40', '3:37:19', 'Penanggapan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8084,7 +8088,7 @@ values (40, 325, '13:14:39', '9:34:41', 'Bangunharja');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (259, 106, '2:05:31', '11:44:41', 'Permas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (362, 252, '0:52:10', '2:19:58', 'La Unión');
+values (362, 252, '0:52:10', '2:19:58', 'La UniÃ³n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (116, 217, '20:11:46', '12:03:18', 'Guanshan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8094,7 +8098,7 @@ values (80, 25, '16:45:42', '3:12:00', 'Kosum Phisai');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (109, 362, '1:07:55', '18:52:52', 'Flagstaff');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (49, 149, '23:58:07', '4:39:26', '‘Aqrah');
+values (49, 149, '23:58:07', '4:39:26', 'â€˜Aqrah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (357, 17, '9:45:38', '4:38:38', 'Fayzabad');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8112,7 +8116,7 @@ values (365, 72, '19:37:58', '10:52:39', 'Tayirove');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (337, 237, '19:54:18', '19:14:45', 'Janeng');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (156, 220, '7:43:43', '6:58:24', 'København');
+values (156, 220, '7:43:43', '6:58:24', 'KÃ¸benhavn');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (81, 279, '16:46:33', '22:19:45', 'Budapest');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8134,27 +8138,27 @@ values (77, 170, '13:22:47', '2:43:09', 'Toulouse');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (76, 180, '10:18:19', '3:30:46', 'Druzhba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (148, 264, '0:05:15', '17:45:53', 'København');
+values (148, 264, '0:05:15', '17:45:53', 'KÃ¸benhavn');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (143, 133, '17:02:47', '5:43:51', 'Açu');
+values (143, 133, '17:02:47', '5:43:51', 'AÃ§u');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (56, 222, '19:51:12', '22:19:54', 'Damayan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (121, 248, '15:31:25', '5:48:29', 'Bogorame');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (384, 226, '2:28:59', '5:09:42', 'Vyshniy Volochëk');
+values (384, 226, '2:28:59', '5:09:42', 'Vyshniy VolochÃ«k');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (322, 110, '11:50:06', '15:49:54', 'Lapinjärvi');
+values (322, 110, '11:50:06', '15:49:54', 'LapinjÃ¤rvi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (374, 323, '15:08:06', '2:41:47', 'Jaguariaíva');
+values (374, 323, '15:08:06', '2:41:47', 'JaguariaÃ­va');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (218, 246, '1:02:08', '3:48:59', 'Mariental');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (375, 341, '6:47:48', '16:50:39', 'Okinawa Número Uno');
+values (375, 341, '6:47:48', '16:50:39', 'Okinawa NÃºmero Uno');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (24, 26, '6:44:46', '9:49:57', 'Tigbao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (325, 205, '13:36:00', '2:21:55', 'Kočevje');
+values (325, 205, '13:36:00', '2:21:55', 'KoÄevje');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (173, 157, '10:54:21', '15:27:00', 'Beijiang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8170,7 +8174,7 @@ values (198, 301, '2:37:56', '3:13:27', 'Amio');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (9, 155, '21:12:45', '8:03:02', 'Malakwal City');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (323, 144, '23:50:45', '21:40:03', 'Zouiat ech Cheïkh');
+values (323, 144, '23:50:45', '21:40:03', 'Zouiat ech CheÃ¯kh');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (217, 34, '12:52:39', '2:45:34', 'Biritiba Mirim');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8214,13 +8218,13 @@ values (235, 208, '16:51:23', '3:15:45', 'Bingawan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (125, 242, '3:35:37', '17:30:00', 'Jasugih Selatan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (253, 296, '10:06:55', '1:29:44', 'Sŏnbong');
+values (253, 296, '10:06:55', '1:29:44', 'SÅnbong');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (255, 64, '10:33:31', '3:03:04', 'Oenunu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (207, 101, '18:09:18', '0:52:58', 'Sobienie Jeziory');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (8, 180, '6:06:15', '16:23:41', 'Ōmagari');
+values (8, 180, '6:06:15', '16:23:41', 'ÅŒmagari');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (25, 194, '14:40:45', '11:51:23', 'Sabanalarga');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8270,13 +8274,13 @@ values (399, 179, '23:52:57', '14:41:36', 'Papringan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (173, 24, '22:03:47', '23:17:45', 'Luozhou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (248, 369, '9:27:22', '8:49:11', 'Santa Cruz Cabrália');
+values (248, 369, '9:27:22', '8:49:11', 'Santa Cruz CabrÃ¡lia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (312, 351, '2:40:22', '10:43:10', 'Uinskoye');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (108, 241, '11:51:50', '20:04:58', 'La Tigra');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (237, 348, '8:14:57', '16:29:04', 'Gachancipá');
+values (237, 348, '8:14:57', '16:29:04', 'GachancipÃ¡');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (64, 79, '12:37:04', '9:04:52', 'Hongjiang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8308,7 +8312,7 @@ values (389, 246, '15:32:36', '22:51:06', 'Swellendam');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (1, 370, '18:40:39', '2:46:04', 'Balgatay');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (218, 314, '15:06:21', '2:22:44', 'Goúrnes');
+values (218, 314, '15:06:21', '2:22:44', 'GoÃºrnes');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (201, 175, '21:38:14', '8:27:21', 'Zafar');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8322,7 +8326,7 @@ values (198, 25, '22:39:52', '19:50:44', 'Calzada Larga');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (157, 252, '10:47:12', '20:49:17', 'Nggelok');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (96, 27, '4:37:12', '12:53:53', 'Al Bahlūlīyah');
+values (96, 27, '4:37:12', '12:53:53', 'Al BahlÅ«lÄ«yah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (262, 286, '1:32:29', '4:46:58', 'Colmar');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8334,7 +8338,7 @@ values (399, 348, '2:36:27', '1:04:06', 'Nassarawa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (277, 73, '15:25:35', '13:46:37', 'Shengli');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (159, 308, '8:22:35', '11:18:27', 'Ash Shaddādah');
+values (159, 308, '8:22:35', '11:18:27', 'Ash ShaddÄdah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (194, 264, '15:11:34', '21:14:03', 'Chandra');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8342,23 +8346,23 @@ values (55, 122, '3:55:27', '13:57:07', 'Sulo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (133, 346, '22:11:02', '3:55:06', 'Dawusu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (385, 44, '6:14:43', '10:02:20', 'Al Maḩallah al Kubrá');
+values (385, 44, '6:14:43', '10:02:20', 'Al Maá¸©allah al KubrÃ¡');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (294, 73, '20:44:59', '10:51:20', 'Khóra');
+values (294, 73, '20:44:59', '10:51:20', 'KhÃ³ra');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (103, 161, '16:35:19', '11:37:04', 'Aguazul');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (168, 323, '22:14:54', '9:19:42', 'Ndélé');
+values (168, 323, '22:14:54', '9:19:42', 'NdÃ©lÃ©');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (267, 41, '13:34:07', '4:45:01', 'Dalonghua');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (383, 219, '7:24:05', '17:14:19', 'União dos Palmares');
+values (383, 219, '7:24:05', '17:14:19', 'UniÃ£o dos Palmares');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (67, 127, '5:08:19', '23:15:47', 'Talondang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (306, 356, '0:55:09', '2:13:56', 'Drammen');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (34, 59, '6:42:31', '8:21:59', 'Pamyat’ Parizhskoy Kommuny');
+values (34, 59, '6:42:31', '8:21:59', 'Pamyatâ€™ Parizhskoy Kommuny');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (115, 293, '5:58:28', '8:09:29', 'Haarlem');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8366,7 +8370,7 @@ values (87, 385, '7:05:48', '3:16:04', 'Bressuire');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (319, 225, '3:51:48', '23:10:09', 'Vale de Figueira');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (94, 360, '17:25:09', '2:40:07', 'Chaniá');
+values (94, 360, '17:25:09', '2:40:07', 'ChaniÃ¡');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (367, 103, '17:54:38', '1:22:23', 'Ebak');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8374,7 +8378,7 @@ values (41, 339, '2:05:33', '16:48:53', 'Talok');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (29, 143, '4:44:10', '9:32:33', 'Kemiri Daya');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (287, 190, '19:40:10', '13:53:32', 'Saint-Félicien');
+values (287, 190, '19:40:10', '13:53:32', 'Saint-FÃ©licien');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (41, 258, '0:08:53', '1:06:14', 'Lukrejo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8394,7 +8398,7 @@ values (277, 161, '13:38:16', '3:56:39', 'Hrazdan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (141, 148, '4:11:10', '9:17:35', 'Butare');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (161, 69, '13:00:28', '7:13:50', 'Vila Viçosa');
+values (161, 69, '13:00:28', '7:13:50', 'Vila ViÃ§osa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (206, 130, '12:12:57', '8:57:20', 'Rozhnyativ');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8412,7 +8416,7 @@ values (303, 244, '23:36:17', '5:28:22', 'Anyang-si');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (33, 73, '1:18:36', '23:45:45', 'Uppsala');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (330, 347, '18:16:30', '3:59:50', 'E’zhou');
+values (330, 347, '18:16:30', '3:59:50', 'Eâ€™zhou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (69, 114, '5:21:16', '0:19:42', 'Suphan Buri');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8442,17 +8446,17 @@ values (164, 347, '2:59:31', '12:19:10', 'Graksop');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (222, 31, '8:19:49', '5:37:42', 'Carcavelos');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (214, 29, '9:38:46', '14:59:52', 'Dueñas');
+values (214, 29, '9:38:46', '14:59:52', 'DueÃ±as');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (377, 96, '9:41:46', '16:37:55', 'Arroyo Naranjo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (310, 91, '10:34:39', '8:58:14', 'Daogao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (241, 98, '16:13:18', '12:10:15', 'Neochóri');
+values (241, 98, '16:13:18', '12:10:15', 'NeochÃ³ri');
 commit;
 prompt 700 records committed...
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (85, 299, '18:09:42', '23:04:20', 'Karakul’');
+values (85, 299, '18:09:42', '23:04:20', 'Karakulâ€™');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (62, 163, '0:27:04', '3:35:31', 'Gotemba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8462,7 +8466,7 @@ values (262, 25, '18:20:11', '9:36:09', 'Velille');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (29, 253, '13:53:54', '1:43:34', 'Pakel');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (293, 224, '14:23:14', '2:16:19', 'Växjö');
+values (293, 224, '14:23:14', '2:16:19', 'VÃ¤xjÃ¶');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (387, 214, '19:19:48', '18:48:12', 'Dayapan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8492,7 +8496,7 @@ values (334, 72, '11:47:09', '9:54:25', 'Rurrenabaque');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (171, 30, '15:29:58', '15:13:57', 'Ntoum');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (259, 149, '15:43:40', '2:56:47', 'Västra Frölunda');
+values (259, 149, '15:43:40', '2:56:47', 'VÃ¤stra FrÃ¶lunda');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (370, 369, '22:33:49', '20:07:02', 'Barvinkove');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8506,17 +8510,17 @@ values (270, 213, '11:08:40', '5:44:20', 'Ratchaburi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (379, 19, '9:07:17', '4:20:00', 'Walton');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (207, 181, '4:12:46', '20:26:39', 'São Fidélis');
+values (207, 181, '4:12:46', '20:26:39', 'SÃ£o FidÃ©lis');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (226, 292, '0:46:29', '8:35:15', 'Kvissleby');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (333, 38, '22:02:51', '9:57:59', 'Wonoharjo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (219, 166, '4:24:39', '3:51:55', 'Ya‘bad');
+values (219, 166, '4:24:39', '3:51:55', 'Yaâ€˜bad');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (235, 299, '8:17:21', '9:20:25', 'Alaverdi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (138, 171, '13:09:54', '12:35:21', 'Puerto Quellón');
+values (138, 171, '13:09:54', '12:35:21', 'Puerto QuellÃ³n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (393, 311, '0:20:19', '9:14:32', 'Jambuir Timur');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8536,19 +8540,19 @@ values (212, 58, '22:59:20', '13:28:36', 'Jiujie');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (244, 54, '7:28:06', '5:07:34', 'Cartagena');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (392, 295, '15:44:24', '20:05:53', 'Pátmos');
+values (392, 295, '15:44:24', '20:05:53', 'PÃ¡tmos');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (314, 84, '19:14:39', '8:51:57', 'Sumberbening');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (262, 283, '18:21:31', '0:35:20', 'Negara');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (200, 147, '9:16:52', '12:12:46', 'Hats’avan');
+values (200, 147, '9:16:52', '12:12:46', 'Hatsâ€™avan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (311, 46, '19:53:30', '1:16:39', 'Polyarnyye Zori');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (19, 110, '15:42:42', '9:58:14', 'Brongkalan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (328, 73, '21:09:49', '2:43:43', 'Samothráki');
+values (328, 73, '21:09:49', '2:43:43', 'SamothrÃ¡ki');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (213, 355, '9:46:56', '18:02:17', 'Mpophomeni');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8556,7 +8560,7 @@ values (217, 214, '5:40:43', '23:26:53', 'Pontinha');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (324, 105, '14:22:26', '1:39:09', 'Bacuyangan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (95, 232, '23:37:03', '22:41:04', 'Qal‘ah-ye Na‘īm');
+values (95, 232, '23:37:03', '22:41:04', 'Qalâ€˜ah-ye Naâ€˜Ä«m');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (300, 397, '19:35:24', '12:21:32', 'El Asintal');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8566,7 +8570,7 @@ values (10, 383, '0:17:18', '9:19:36', 'Qindu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (5, 315, '14:01:49', '0:45:48', 'General Belgrano');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (389, 82, '18:11:15', '12:09:06', 'Lamía');
+values (389, 82, '18:11:15', '12:09:06', 'LamÃ­a');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (224, 284, '16:14:43', '22:53:59', 'Freiburg im Breisgau');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8578,9 +8582,9 @@ values (121, 271, '20:38:19', '11:44:22', 'Djibo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (165, 329, '9:04:46', '14:19:54', 'Sharga');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (363, 82, '8:06:38', '20:18:00', 'Thị Trấn Yên Thế');
+values (363, 82, '8:06:38', '20:18:00', 'Thá»‹ Tráº¥n YÃªn Tháº¿');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (395, 171, '12:49:35', '17:09:31', 'Agriá');
+values (395, 171, '12:49:35', '17:09:31', 'AgriÃ¡');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (369, 122, '2:10:06', '8:16:11', 'Karangboyo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8592,9 +8596,9 @@ values (398, 11, '0:14:08', '6:33:38', 'Shangani');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (188, 64, '21:27:29', '1:09:23', 'Pyskowice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (75, 77, '17:16:19', '11:34:24', 'Sremčica');
+values (75, 77, '17:16:19', '11:34:24', 'SremÄica');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (255, 92, '8:17:43', '12:53:47', 'Acherítou');
+values (255, 92, '8:17:43', '12:53:47', 'AcherÃ­tou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (279, 293, '16:26:33', '2:20:40', 'Phu Khiao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8612,13 +8616,13 @@ values (307, 51, '20:48:40', '6:40:08', 'Itambacuri');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (25, 270, '12:27:57', '11:58:25', 'Bachowice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (138, 342, '17:47:43', '0:24:44', 'Kruševac');
+values (138, 342, '17:47:43', '0:24:44', 'KruÅ¡evac');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (117, 122, '20:03:05', '2:22:16', 'Castro');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (156, 57, '2:11:31', '19:59:48', '‘Arab ar Rashāydah');
+values (156, 57, '2:11:31', '19:59:48', 'â€˜Arab ar RashÄydah');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (38, 32, '15:50:31', '7:43:52', 'Dolní Dvořiště');
+values (38, 32, '15:50:31', '7:43:52', 'DolnÃ­ DvoÅ™iÅ¡tÄ›');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (204, 257, '2:37:09', '9:50:41', 'Warnes');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8626,7 +8630,7 @@ values (91, 46, '13:01:26', '10:13:32', 'Mombok');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (99, 152, '3:41:28', '4:02:35', 'Mporokoso');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (83, 164, '18:09:13', '5:18:39', 'Ryōtsu-minato');
+values (83, 164, '18:09:13', '5:18:39', 'RyÅtsu-minato');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (257, 37, '8:16:36', '10:15:28', 'San Ignacio');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8634,9 +8638,9 @@ values (134, 357, '6:08:50', '14:02:10', 'Sabanalarga');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (140, 232, '11:54:03', '11:19:22', 'Senlis');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (46, 335, '21:22:22', '18:27:59', 'Đà Bắc');
+values (46, 335, '21:22:22', '18:27:59', 'ÄÃ  Báº¯c');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (78, 76, '14:49:42', '21:33:02', 'Żabno');
+values (78, 76, '14:49:42', '21:33:02', 'Å»abno');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (330, 222, '20:26:26', '22:03:28', 'Huancarqui');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8648,7 +8652,7 @@ values (54, 308, '22:21:36', '4:03:27', 'Liujia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (273, 280, '1:35:58', '1:06:17', 'Taraco');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (178, 119, '12:11:45', '0:24:41', 'Eṭ Ṭaiyiba');
+values (178, 119, '12:11:45', '0:24:41', 'Eá¹­ á¹¬aiyiba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (297, 183, '4:56:07', '5:12:51', 'Pospelikha');
 commit;
@@ -8670,9 +8674,9 @@ values (361, 162, '15:50:38', '20:56:37', 'Aktogay');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (83, 362, '0:50:04', '20:25:09', 'Tsaghkaber');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (106, 140, '16:48:33', '8:54:11', 'Angoulême');
+values (106, 140, '16:48:33', '8:54:11', 'AngoulÃªme');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (104, 160, '22:03:00', '6:53:47', 'Miān Channūn');
+values (104, 160, '22:03:00', '6:53:47', 'MiÄn ChannÅ«n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (129, 274, '10:33:59', '18:51:26', 'Taizi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8682,9 +8686,9 @@ values (331, 346, '13:03:00', '21:38:07', 'Curridabat');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (278, 119, '19:03:03', '19:22:55', 'Taha Man Zu');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (242, 19, '23:28:46', '14:04:31', 'Hacıqabul');
+values (242, 19, '23:28:46', '14:04:31', 'HacÄ±qabul');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (187, 50, '18:49:20', '1:47:07', 'Al Qanāyāt');
+values (187, 50, '18:49:20', '1:47:07', 'Al QanÄyÄt');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (143, 108, '2:30:22', '8:42:21', 'Were');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8704,9 +8708,9 @@ values (313, 203, '16:43:51', '3:11:42', 'Aguelmous');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (356, 387, '8:36:03', '2:41:04', 'Itapevi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (400, 319, '0:11:25', '4:56:22', 'Không');
+values (400, 319, '0:11:25', '4:56:22', 'KhÃ´ng');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (235, 337, '11:20:39', '19:31:25', 'Thị Trấn Mường Khến');
+values (235, 337, '11:20:39', '19:31:25', 'Thá»‹ Tráº¥n MÆ°á»ng Kháº¿n');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (51, 101, '14:46:01', '9:10:09', 'Kuantan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8732,7 +8736,7 @@ values (220, 222, '9:06:42', '4:11:30', 'Dusun Tengah Cihaurbeuti');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (35, 114, '12:57:51', '23:53:32', 'Agogo');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (191, 368, '4:21:18', '6:31:01', 'Sokal’');
+values (191, 368, '4:21:18', '6:31:01', 'Sokalâ€™');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (251, 304, '11:31:04', '16:15:31', 'Xuanhua');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8746,7 +8750,7 @@ values (306, 307, '15:57:15', '15:01:14', 'El Paso');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (82, 295, '14:02:56', '8:12:40', 'Espargos');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (365, 356, '19:31:36', '20:25:34', 'Bal’shavik');
+values (365, 356, '19:31:36', '20:25:34', 'Balâ€™shavik');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (299, 357, '19:56:51', '3:35:00', 'San Francisco');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8764,11 +8768,11 @@ values (94, 5, '1:21:02', '15:41:37', 'Suai');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (68, 175, '6:16:17', '2:55:52', 'Villeneuve-sur-Lot');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (246, 231, '22:41:02', '18:13:46', 'Tīkāpur');
+values (246, 231, '22:41:02', '18:13:46', 'TÄ«kÄpur');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (366, 76, '4:24:46', '19:10:34', 'Rathdrum');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (10, 141, '20:24:31', '14:50:27', 'Berbérati');
+values (10, 141, '20:24:31', '14:50:27', 'BerbÃ©rati');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (381, 187, '8:27:40', '0:58:41', 'Votkinsk');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8782,7 +8786,7 @@ values (273, 223, '0:27:26', '15:02:43', 'Hisai');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (3, 61, '20:10:09', '11:25:03', 'Chartres');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (120, 162, '22:50:15', '17:31:52', 'Quốc Oai');
+values (120, 162, '22:50:15', '17:31:52', 'Quá»‘c Oai');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (218, 91, '18:19:53', '18:26:51', 'Miraflores');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8790,7 +8794,7 @@ values (99, 158, '5:49:13', '3:57:11', 'Palangkaraya');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (201, 141, '11:39:55', '19:19:33', 'Yurimaguas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (14, 202, '22:23:08', '16:47:20', 'Xylaganí');
+values (14, 202, '22:23:08', '16:47:20', 'XylaganÃ­');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (19, 263, '5:48:59', '19:48:01', 'Uherce Mineralne');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8810,11 +8814,11 @@ values (218, 220, '3:13:19', '7:29:52', 'Mangochi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (101, 129, '20:10:16', '14:40:01', 'Sendafa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (264, 248, '15:02:01', '18:08:00', 'São Sepé');
+values (264, 248, '15:02:01', '18:08:00', 'SÃ£o SepÃ©');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (336, 102, '12:36:43', '16:05:34', 'Dīvāndarreh');
+values (336, 102, '12:36:43', '16:05:34', 'DÄ«vÄndarreh');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (102, 267, '7:42:31', '12:26:17', 'Jadów');
+values (102, 267, '7:42:31', '12:26:17', 'JadÃ³w');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (33, 178, '16:14:45', '10:42:16', 'Taoyao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8846,7 +8850,7 @@ values (280, 234, '20:56:57', '17:28:43', 'Nantes');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (175, 65, '8:58:37', '13:38:34', 'Dapdap');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (19, 328, '22:08:21', '9:09:34', 'Bořitov');
+values (19, 328, '22:08:21', '9:09:34', 'BoÅ™itov');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (316, 320, '13:19:28', '2:31:36', 'Venda Nova');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8860,7 +8864,7 @@ values (16, 315, '11:22:51', '23:33:45', 'Papeete');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (239, 299, '6:50:32', '16:13:21', 'Krajan Gebangan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (115, 33, '7:19:52', '2:12:51', 'João Pessoa');
+values (115, 33, '7:19:52', '2:12:51', 'JoÃ£o Pessoa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (22, 289, '19:41:25', '22:08:48', 'Villa Castelli');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8872,7 +8876,7 @@ values (188, 252, '2:32:19', '22:33:41', 'Shiroi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (48, 263, '15:03:29', '8:22:32', 'Portland');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (380, 137, '15:22:43', '22:06:12', 'Bayt ‘Ūr at Taḩtā');
+values (380, 137, '15:22:43', '22:06:12', 'Bayt â€˜Åªr at Taá¸©tÄ');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (257, 181, '3:10:10', '13:45:42', 'San Rafael');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8882,7 +8886,7 @@ values (169, 143, '4:48:36', '19:55:25', 'Doba');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (36, 322, '1:27:42', '20:30:30', 'Sankui');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (52, 371, '2:21:24', '16:32:09', 'Ḏânan');
+values (52, 371, '2:21:24', '16:32:09', 'á¸ŽÃ¢nan');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (90, 118, '15:24:51', '6:27:46', 'Sukaraja');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8890,7 +8894,7 @@ values (334, 244, '22:30:05', '17:44:53', 'Rumphi');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (69, 119, '21:05:30', '9:37:08', 'Butha-Buthe');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (318, 216, '4:20:23', '9:20:55', 'Podporozh’ye');
+values (318, 216, '4:20:23', '9:20:55', 'Podporozhâ€™ye');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (150, 4, '19:21:46', '18:30:06', 'Aimin');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8916,7 +8920,7 @@ values (111, 65, '11:10:39', '19:07:07', 'Nezamyslice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (392, 21, '7:23:55', '9:01:02', 'Wenchang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (25, 32, '0:54:30', '8:00:12', 'Kalýves Polygýrou');
+values (25, 32, '0:54:30', '8:00:12', 'KalÃ½ves PolygÃ½rou');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (396, 78, '4:34:24', '5:34:51', 'Kotawaikabubak');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8938,7 +8942,7 @@ values (167, 266, '19:32:00', '20:57:45', 'Dalovice');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (174, 13, '18:40:35', '2:28:14', 'Cipadung Timur');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (331, 251, '10:45:09', '8:20:48', 'Campanário');
+values (331, 251, '10:45:09', '8:20:48', 'CampanÃ¡rio');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (129, 400, '0:30:54', '7:26:20', 'Marly');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8960,13 +8964,13 @@ values (378, 17, '2:30:43', '19:06:59', 'Banyumas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (342, 137, '21:19:53', '21:45:38', 'Lanas');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (192, 123, '2:11:54', '3:44:53', 'Sirājganj');
+values (192, 123, '2:11:54', '3:44:53', 'SirÄjganj');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (349, 374, '10:49:06', '8:23:29', 'Shanghuang');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (235, 29, '9:52:33', '16:53:48', 'Melissochóri');
+values (235, 29, '9:52:33', '16:53:48', 'MelissochÃ³ri');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (296, 122, '1:20:46', '15:02:04', 'Engenheiro Beltrão');
+values (296, 122, '1:20:46', '15:02:04', 'Engenheiro BeltrÃ£o');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (137, 345, '12:51:26', '12:30:07', 'Guararapes');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -8990,11 +8994,11 @@ values (376, 43, '4:44:16', '2:31:05', 'Alfena');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (283, 300, '4:32:55', '6:14:40', 'Kekeri');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (312, 178, '8:08:56', '23:31:27', 'Guaranésia');
+values (312, 178, '8:08:56', '23:31:27', 'GuaranÃ©sia');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (188, 120, '11:38:16', '4:03:43', 'Shuitianhe');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (382, 118, '20:15:08', '13:31:05', 'Kilkís');
+values (382, 118, '20:15:08', '13:31:05', 'KilkÃ­s');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (340, 382, '9:15:50', '9:35:33', 'Saverne');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -9014,7 +9018,7 @@ values (101, 137, '8:03:11', '7:59:44', 'Hartswater');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (41, 302, '9:21:40', '10:12:05', 'Kuala Lumpur');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (373, 261, '0:37:33', '14:20:41', 'Żarów');
+values (373, 261, '0:37:33', '14:20:41', 'Å»arÃ³w');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (194, 193, '14:55:45', '3:25:14', 'Devesa');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -9036,7 +9040,7 @@ values (312, 250, '20:05:06', '9:33:39', 'Makarska');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (399, 324, '0:48:59', '8:34:47', 'Hongqiao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (164, 26, '7:10:40', '5:24:42', 'Patrocínio');
+values (164, 26, '7:10:40', '5:24:42', 'PatrocÃ­nio');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (59, 388, '10:53:38', '21:22:25', 'Buenavista');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
@@ -9046,7 +9050,7 @@ values (174, 356, '5:20:43', '2:35:20', 'Guling');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
 values (5, 158, '9:43:08', '0:40:36', 'Baimiao');
 insert into DRIVESINTAXI (driverid, taxiid, starttime, finishtime, workingzone)
-values (375, 333, '18:39:43', '14:54:39', 'Baños');
+values (375, 333, '18:39:43', '14:54:39', 'BaÃ±os');
 commit;
 prompt 996 records loaded
 prompt Enabling triggers for BUS...

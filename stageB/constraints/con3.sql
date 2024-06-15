@@ -1,11 +1,3 @@
--- Constraint 1: Unique License Plate
-ALTER TABLE Taxi
-ADD CONSTRAINT uc_LicensePlate UNIQUE (LicensePlate);
-
--- Constraint 2: Default value for driver's name
-ALTER TABLE Driver
-MODIFY (FullName DEFAULT 'Dekel Vaknin');
-
 -- Constraint 3: check that HireDate is not in the future
 -- i used here trigger, because SYSDATE is non-deterministic, and it can't be done with constraint
 CREATE OR REPLACE TRIGGER trg_check_hiredate
@@ -19,5 +11,4 @@ BEGIN
     END IF;
 END;
 /
-
 
