@@ -1,3 +1,4 @@
+
 CREATE OR REPLACE PROCEDURE printAndDeleteDrivers(
     ref_cur IN SYS_REFCURSOR
 ) IS
@@ -20,6 +21,15 @@ BEGIN
 
         -- Print driver name
         DBMS_OUTPUT.PUT_LINE('Deleting driver: ' || driver_name);
+        
+        -- Delete instances from table BusRide where driverID = driverID
+        DELETE FROM BusRide
+        WHERE DriverID = driver_id;
+
+        -- Delete instances from table Drives in taxi where driverID = driverID
+        DELETE FROM DrivesInTaxi;
+        WHERE DriverID = driver_id;
+
 
         -- Delete driver from Driver table
         DELETE FROM Driver

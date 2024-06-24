@@ -10,7 +10,7 @@ BEGIN
         OPEN ref_cur FOR
             SELECT DriverID
             FROM Driver
-            WHERE HireDate > inputDate2 AND HireDate < inputDate1;
+            WHERE HireDate < inputDate2 AND HireDate > inputDate1;
         
         -- Return the ref cursor
         RETURN ref_cur;

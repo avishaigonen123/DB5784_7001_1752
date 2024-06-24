@@ -37,8 +37,9 @@ END isValidLicenseNumber;
 CREATE OR REPLACE PROCEDURE deleteDriversWithInvalidLicenses(
     driver_ids_list VARCHAR2
 ) IS
-    driver_id_list VARCHAR2(4000);
+    v_driver_id_list VARCHAR2(4000); -- Variable to hold comma-separated list of DriverIDs
     v_driver_id Driver.DriverID%TYPE;
+    v_driver_name Driver.FullName%TYPE;
 BEGIN
     -- Check if input driver_ids_list is empty
     IF driver_ids_list IS NULL OR driver_ids_list = '' THEN
@@ -55,16 +56,28 @@ BEGIN
 
         -- Check if driver exists
         SELECT COUNT(*)
-        INTO driver_id_list
+        INTO v_driver_id_list
         FROM Driver
         WHERE DriverID = v_driver_id;
 
-        IF driver_id_list > 0 THEN
+        IF v_driver_id_list > 0 THEN
             -- Validate license number and delete driver if invalid
             IF NOT isValidLicenseNumber(v_driver_id) THEN
+                -- Get driver name
+                SELECT FullName INTO v_driver_name
+                FROM Driver
+                WHERE DriverID = v_driver_id;
+
+                -- Delete dependent records first (if needed)
+                DELETE FROM DrivesInTaxi WHERE DriverID = v_driver_id;
+                DELETE FROM BusRide WHERE DriverID = v_driver_id;
+
+                -- Print driver name (optional for debugging)
+                DBMS_OUTPUT.PUT_LINE('Deleting driver: ' || v_driver_name);
+
+                -- Delete driver from Driver table
                 DELETE FROM Driver
                 WHERE DriverID = v_driver_id;
-                DBMS_OUTPUT.PUT_LINE('Deleted driver with invalid license number: ' || v_driver_id);
             END IF;
         ELSE
             -- Throw exception if driver does not exist
@@ -72,11 +85,10 @@ BEGIN
         END IF;
     END LOOP;
 EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        NULL; -- Handle no data found scenario
     WHEN OTHERS THEN
         -- Handle any exceptions
         RAISE;
 END deleteDriversWithInvalidLicenses;
 /
-
--- 3476-8840-8675
-
