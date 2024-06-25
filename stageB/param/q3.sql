@@ -8,7 +8,8 @@ SELECT
     ) AS TotalHours
 FROM DrivesInTaxi driverinstaxi
 JOIN Driver driver ON driverinstaxi.DriverID = driver.DriverID
-WHERE driverinstaxi.WorkingZone = '&WorkingZone'
+WHERE driverinstaxi.WorkingZone = '&<name="WorkingZone" list="SELECT WorkingZone from DrivesInTaxi driverinstaxi
+JOIN Driver driver ON driverinstaxi.DriverID = driver.DriverID">'  
 GROUP BY driverinstaxi.DriverID, driver.FullName
 ORDER BY TotalHours DESC
 FETCH FIRST 1 ROWS ONLY;
